@@ -1,6 +1,6 @@
 #include "FireBallBonus.h"
 
-namespace RogaliqueGame
+namespace ArkanoidGame
 {
 	FireBallBonus::FireBallBonus(const sf::Vector2f& position)
 		: Bonus(position, sf::Color::Red, BonusType::FireBall)

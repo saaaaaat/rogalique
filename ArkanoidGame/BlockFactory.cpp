@@ -3,7 +3,7 @@
 #include "DurableBlock.h"
 #include "GlassBlock.h"     
 
-namespace RogaliqueGame
+namespace ArkanoidGame
 {
 	int BlockFactory::GetcreatedBreackableBlocksCount()
 	{

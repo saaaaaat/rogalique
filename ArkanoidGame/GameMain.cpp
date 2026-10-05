@@ -2,7 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include "Application.h"
 
-using namespace RogaliqueGame;
+using namespace ArkanoidGame;
 
 int main()
 {

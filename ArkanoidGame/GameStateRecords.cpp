@@ -7,7 +7,7 @@
 #include <sstream>
 #include <algorithm>
 
-namespace RogaliqueGame
+namespace ArkanoidGame
 {
 	void GameStateRecordsData::Init()
 	{

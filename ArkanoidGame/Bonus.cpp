@@ -1,7 +1,7 @@
 #include "Bonus.h"
 #include "GameSettings.h"
 
-namespace RogaliqueGame
+namespace ArkanoidGame
 {
 	Bonus::Bonus(const sf::Vector2f& position, const sf::Color& color, BonusType type)
 		: GameObject(SETTINGS.TEXTURES_PATH + "ball.png", position, SETTINGS.BALL_SIZE, SETTINGS.BALL_SIZE)

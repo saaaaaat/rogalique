@@ -1,7 +1,7 @@
 #pragma once
 #include "Bonus.h"
 
-namespace RogaliqueGame
+namespace ArkanoidGame
 {
 	class BigPlatformBonus : public Bonus
 	{

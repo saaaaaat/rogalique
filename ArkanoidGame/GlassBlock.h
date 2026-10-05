@@ -1,7 +1,7 @@
 #pragma once
 #include "Block.h"
 
-namespace RogaliqueGame
+namespace ArkanoidGame
 {
 	class GlassBlock : public Block
 	{

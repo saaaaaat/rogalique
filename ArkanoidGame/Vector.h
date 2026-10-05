@@ -1,7 +1,7 @@
 #pragma once
 #include <cmath>
 
-namespace RogaliqueGame
+namespace ArkanoidGame
 {
 	// вектор с иницилизацией полей 
 	template<typename T>

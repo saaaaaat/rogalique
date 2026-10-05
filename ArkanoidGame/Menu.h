@@ -3,7 +3,7 @@
 #include "Text.h"
 #include <functional>
 
-namespace RogaliqueGame
+namespace ArkanoidGame
 {
 	struct MenuItem
 	{

@@ -1,7 +1,7 @@
 #include "DurableBlock.h"
 #include "Sprite.h"
 
-namespace RogaliqueGame
+namespace ArkanoidGame
 {
 	DurableBlock::DurableBlock(const sf::Vector2f& position)
 		: Block(position, sf::Color::Red)   //  красный

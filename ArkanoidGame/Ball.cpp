@@ -9,7 +9,7 @@ namespace
 	const std::string TEXTURE_ID = "ball";
 }
 
-namespace RogaliqueGame
+namespace ArkanoidGame
 {
 	//создание шарика и задать направление
 	Ball::Ball(const sf::Vector2f& position)

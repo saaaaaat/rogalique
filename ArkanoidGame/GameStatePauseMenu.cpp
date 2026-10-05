@@ -3,7 +3,7 @@
 #include "Game.h"
 #include <cassert>
 
-namespace RogaliqueGame
+namespace ArkanoidGame
 {
 	void GameStatePauseMenuData::Init()
 	{

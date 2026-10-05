@@ -5,7 +5,7 @@
 #include "GameState.h"
 #include <unordered_map>
 
-namespace RogaliqueGame
+namespace ArkanoidGame
 {
 	enum class GameOptions : std::uint8_t
 	{

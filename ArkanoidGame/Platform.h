@@ -4,7 +4,7 @@
 #include "Collidable.h"
 #include <algorithm>
 
-namespace RogaliqueGame
+namespace ArkanoidGame
 {
 	class Platform : public GameObject, public Colladiable
 	{

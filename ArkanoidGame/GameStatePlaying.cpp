@@ -11,7 +11,7 @@
 #include <cassert>
 #include <algorithm>
 
-namespace RogaliqueGame
+namespace ArkanoidGame
 {
 	void GameStatePlayingData::Init()
 	{

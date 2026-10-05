@@ -13,7 +13,7 @@
 #include"SlowBallBonus.h"
 #include <unordered_map>
 
-namespace RogaliqueGame
+namespace ArkanoidGame
 {
 	class Game;
 	class Block;
