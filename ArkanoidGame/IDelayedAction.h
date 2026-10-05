@@ -2,7 +2,7 @@
 #include "SFML/Graphics.hpp"
 #include <memory>
 
-namespace ArkanoidGame
+namespace RogaliqueGame
 {
 	 // обьекты с отложенным временем, плавное исчезновение
 	class IDelayedAction

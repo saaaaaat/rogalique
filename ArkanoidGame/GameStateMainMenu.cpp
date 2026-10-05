@@ -3,7 +3,7 @@
 #include "Game.h"
 #include <cassert>
 
-namespace ArkanoidGame
+namespace RogaliqueGame
 {
 	namespace
 	{

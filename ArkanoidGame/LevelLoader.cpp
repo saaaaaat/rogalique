@@ -4,7 +4,7 @@
 #include <fstream>
 #include <cassert>
 
-namespace ArkanoidGame
+namespace RogaliqueGame
 {
 	Level& LevelLoader::GetLevel(int i)
 	{

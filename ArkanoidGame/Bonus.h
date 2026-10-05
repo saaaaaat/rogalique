@@ -3,7 +3,7 @@
 #include "SFML/Graphics.hpp"
 #include "GameObject.h"
 
-namespace ArkanoidGame
+namespace RogaliqueGame
 {
 	enum class BonusType
 	{
