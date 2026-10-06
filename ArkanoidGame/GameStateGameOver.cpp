@@ -7,7 +7,7 @@
 #include <algorithm>
 
 
-namespace ArkanoidGame
+namespace RogaliqueGame
 {
 	const char* PLAYER_NAME = "Player";
 

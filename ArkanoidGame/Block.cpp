@@ -8,7 +8,7 @@ namespace
 	const std::string TEXTURE_ID = "platform";
 }
 
-namespace ArkanoidGame
+namespace RogaliqueGame
 {
 	//конструктор стандартного блока
 	Block::Block(const sf::Vector2f& position, const sf::Color& color)

@@ -8,7 +8,7 @@
 #include "GameStateRecords.h"
 #include <cassert>
 
-namespace ArkanoidGame
+namespace RogaliqueGame
 {
 	GameState::GameState(GameStateType type, bool isExclusivelyVisible)
 		: type(type)

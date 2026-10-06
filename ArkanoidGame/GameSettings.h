@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 
-namespace ArkanoidGame
+namespace RogaliqueGame
 {
 	class GameWorld
 	{

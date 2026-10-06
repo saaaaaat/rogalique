@@ -2,7 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include "Vector.h"
 
-namespace ArkanoidGame
+namespace RogaliqueGame
 {
 	enum class Orientation
 	{

@@ -4,7 +4,7 @@
 #include "Text.h"
 #include <cassert>
 
-namespace ArkanoidGame
+namespace RogaliqueGame
 {
 	void GameStateWinData::Init()
 	{
