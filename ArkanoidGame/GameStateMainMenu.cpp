@@ -3,7 +3,7 @@
 #include "Game.h"
 #include <cassert>
 
-namespace ArkanoidGame
+namespace RogaliqueGame
 {
 	namespace
 	{
@@ -51,7 +51,7 @@ namespace ArkanoidGame
 		exitGame.childrens.push_back(no);
 
 		MenuItem mainMenu;
-		mainMenu.hintText.setString("Arkanoid Game");
+		mainMenu.hintText.setString("Rogalique Game");
 		mainMenu.hintText.setFont(font);
 		mainMenu.hintText.setCharacterSize(48);
 		mainMenu.hintText.setFillColor(sf::Color::Red);

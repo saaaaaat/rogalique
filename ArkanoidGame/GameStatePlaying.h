@@ -1,19 +1,14 @@
-#pragma once
+/*#pragma once
 #include "SFML/Graphics.hpp"
 #include "SFML/Audio.hpp"
 #include "GameStateData.h"
-#include "Platform.h"
-#include "Ball.h"
-#include "LevelLoader.h"
-#include "BlockFactory.h"
+
+
 #include "IObserver.h"
-#include "Bonus.h"
-#include "BigPlatformBonus.h"
-#include"FireBallBonus.h"
-#include"SlowBallBonus.h"
+
 #include <unordered_map>
 
-namespace ArkanoidGame
+namespace RogaliqueGame
 {
 	class Game;
 	class Block;
@@ -69,5 +64,28 @@ namespace ArkanoidGame
 
 		int score = 0;
 
+	};
+}*/
+
+#pragma once
+#include "SFML/Graphics.hpp"
+#include "GameStateData.h"   // ← вместо GameState.h
+#include "Text.h"
+
+namespace RogaliqueGame
+{
+	class Game;
+
+	class GameStatePlayingData : public GameStateData   // ← GameStateData
+	{
+	public:
+		void Init() override;                                          // ← добавить Init
+		void HandleWindowEvent(const sf::Event& event) override;
+		void Update(float timeDelta) override;
+		void Draw(sf::RenderWindow& window) override;                  // ← Draw
+
+	private:
+		sf::Font font;
+		sf::Text hintText;   // ← sf::Text, а не Text
 	};
 }
