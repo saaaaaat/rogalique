@@ -1,12 +1,8 @@
-#include "GameStatePlaying.h"
-#include "Application.h"
-#include "Block.h"
-#include "Game.h"
+
+
+/*#include "Game.h"
 #include "Text.h"
-#include "Bonus.h"
-#include "FireBallBonus.h"
-#include "SlowBallBonus.h"
-#include "BigPlatformBonus.h"
+
 
 #include <cassert>
 #include <algorithm>
@@ -320,4 +316,57 @@ namespace RogaliqueGame
 		platform->SetScaleMultiplier(1.f);
 	}
 
+}*/
+#include "GameStatePlaying.h"
+#include "Application.h"
+#include "Game.h"
+#include <cassert>
+
+namespace RogaliqueGame
+{
+	void GameStatePlayingData::Init()
+	{
+		// Загружаем шрифт
+		assert(font.loadFromFile("Resources/Fonts/Roboto-Regular.ttf"));
+
+		// Инициализируем текст-заглушку
+		hintText.setFont(font);
+		hintText.setString("TO BE DONE...\nPress Esc to exit to menu");
+		hintText.setCharacterSize(32);
+		hintText.setFillColor(sf::Color::White);
+
+		// Центрируем текст
+		sf::FloatRect textRect = hintText.getLocalBounds();
+		hintText.setOrigin(
+			textRect.left + textRect.width / 2.0f,
+			textRect.top + textRect.height / 2.0f
+		);
+
+		hintText.setPosition(
+			SETTINGS.SCREEN_WIDTH / 2.0f,
+			SETTINGS.SCREEN_HEIGHT / 2.0f
+		);
+	}
+
+	void GameStatePlayingData::HandleWindowEvent(const sf::Event& event)
+	{
+		if (event.type == sf::Event::KeyPressed &&
+			event.key.code == sf::Keyboard::Escape)
+		{
+			// Возвращаемся в главное меню
+			Application::Instance().GetGame().ExitGame();
+		}
+	}
+
+	void GameStatePlayingData::Update(float timeDelta)
+	{
+		// Пусто
+	}
+
+	void GameStatePlayingData::Draw(sf::RenderWindow& window)
+	{
+		// Пустой экран (чёрный фон) + текст
+		window.clear(sf::Color::Black);
+		window.draw(hintText);
+	}
 }

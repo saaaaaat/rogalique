@@ -2,10 +2,9 @@
 #include <cassert>
 #include <algorithm>
 #include "GameStatePlaying.h"
-#include "GameStateGameOver.h"
-#include "GameStatePauseMenu.h"
+
 #include "GameStateMainMenu.h"
-#include "GameStateRecords.h"
+
 
 namespace RogaliqueGame
 {
@@ -184,12 +183,7 @@ namespace RogaliqueGame
 		PushState(GameStateType::Records, true);
 	}
 
-	void Game::LoadNextLevel()
-	{
-		assert(stateStack.back().GetType() == GameStateType::Playing);
-		auto playingData = stateStack.back().GetData<GameStatePlayingData>();
-		playingData->LoadNextLevel();
-	}
+
 	void Game::UpdateGame(float timeDelta, sf::RenderWindow& window)
 	{
 		HandleWindowEvents(window);

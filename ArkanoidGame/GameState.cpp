@@ -1,11 +1,10 @@
 #include "GameState.h"
 #include "GameStateData.h"
 #include "GameStatePlaying.h"
-#include "GameStateGameOver.h"
-#include "GameStateWin.h"    
-#include "GameStatePauseMenu.h"
+
+
 #include "GameStateMainMenu.h"
-#include "GameStateRecords.h"
+
 #include <cassert>
 
 namespace RogaliqueGame
@@ -22,18 +21,7 @@ namespace RogaliqueGame
 		case GameStateType::Playing:
 			data = std::make_shared<GameStatePlayingData>();
 			break;
-		case GameStateType::GameOver:
-			data = std::make_shared<GameStateGameOverData>();
-			break;
-		case GameStateType::GameWin:
-			data = std::make_shared<GameStateWinData>();
-			break;
-		case GameStateType::Records:     
-			data = std::make_shared<GameStateRecordsData>();
-			break;
-		case GameStateType::ExitDialog:
-			data = std::make_shared<GameStatePauseMenuData>();
-			break;
+		
 		default:
 			assert(false);
 			break;
