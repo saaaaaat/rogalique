@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "SFMLTemplate\\SFMLTemplate.vcxproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Engine\\Engine.vcxproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

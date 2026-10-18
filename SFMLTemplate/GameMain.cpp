@@ -3,11 +3,28 @@
 
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
-
+#include "Engine.h"
+//#include <windows.h>
+//#include <iostream>
 const std::string RESOURCES_PATH = "Resources/";
 
 int main()
 {
+	// Выделяем консоль и перенаправляем вывод
+	/*if (AllocConsole())
+	{
+		FILE* fp;
+		freopen_s(&fp, "CONOUT$", "w", stdout); // Перенаправляем stdout в консоль
+		freopen_s(&fp, "CONOUT$", "w", stderr); // Перенаправляем stderr в консоль
+	}
+	else
+	{
+		std::cerr << "Не удалось выделить консоль." << std::endl;
+	}*/
+
+	Engine engine;
+	engine.Initialize();
+	engine.Run();
 	sf::RenderWindow window(sf::VideoMode(330, 400), "SFML works!");
 
 	sf::Texture logo;
