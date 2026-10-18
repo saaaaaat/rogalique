@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RogaliqueGame", "ArkanoidGa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Engine\Engine.vcxproj", "{B5C6CAB6-9B06-4B53-B006-F3B726C6EEA4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EngineTest", "EngineTest\EngineTest.vcxproj", "{5B688B81-7185-4BE3-B4D4-F3FAEA4C9A55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{B5C6CAB6-9B06-4B53-B006-F3B726C6EEA4}.Release|x64.Build.0 = Release|x64
 		{B5C6CAB6-9B06-4B53-B006-F3B726C6EEA4}.Release|x86.ActiveCfg = Release|Win32
 		{B5C6CAB6-9B06-4B53-B006-F3B726C6EEA4}.Release|x86.Build.0 = Release|Win32
+		{5B688B81-7185-4BE3-B4D4-F3FAEA4C9A55}.Debug|x64.ActiveCfg = Debug|x64
+		{5B688B81-7185-4BE3-B4D4-F3FAEA4C9A55}.Debug|x64.Build.0 = Debug|x64
+		{5B688B81-7185-4BE3-B4D4-F3FAEA4C9A55}.Debug|x86.ActiveCfg = Debug|Win32
+		{5B688B81-7185-4BE3-B4D4-F3FAEA4C9A55}.Debug|x86.Build.0 = Debug|Win32
+		{5B688B81-7185-4BE3-B4D4-F3FAEA4C9A55}.Release|x64.ActiveCfg = Release|x64
+		{5B688B81-7185-4BE3-B4D4-F3FAEA4C9A55}.Release|x64.Build.0 = Release|x64
+		{5B688B81-7185-4BE3-B4D4-F3FAEA4C9A55}.Release|x86.ActiveCfg = Release|Win32
+		{5B688B81-7185-4BE3-B4D4-F3FAEA4C9A55}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

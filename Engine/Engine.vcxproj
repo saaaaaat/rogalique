@@ -170,6 +170,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\ArkanoidGame\GameObject.h" />
+    <ClInclude Include="..\ArkanoidGame\randomizer.h" />
+    <ClInclude Include="..\ArkanoidGame\Sprite.h" />
     <ClInclude Include="..\ArkanoidGame\Vector.h" />
     <ClInclude Include="Engine.h" />
     <ClInclude Include="framework.h" />

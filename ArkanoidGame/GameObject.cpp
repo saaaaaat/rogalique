@@ -1,6 +1,7 @@
 #include "GameObject.h"
 #include "Sprite.h"
 #include <cassert>
+#include "pch.h"
 
 namespace RogaliqueGame
 {
