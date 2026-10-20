@@ -23,7 +23,7 @@ T random(T lower = T(0), T higher = T(99)) {
 		typename uniform_distribution_selector<std::is_integral<T>::value, T>::type;
 
 	uniform_distribution_type distribution(lower, higher);
-	static std::mt19937 engine;
+	static std::mt19937 RogaliqueGame;
 
-	return distribution(engine);
+	return distribution(RogaliqueGame);
 }

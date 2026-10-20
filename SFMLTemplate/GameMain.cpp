@@ -3,7 +3,7 @@
 
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
-#include "Engine.h"
+
 //#include <windows.h>
 //#include <iostream>
 const std::string RESOURCES_PATH = "Resources/";
@@ -22,9 +22,9 @@ int main()
 		std::cerr << "Не удалось выделить консоль." << std::endl;
 	}*/
 
-	Engine engine;
-	engine.Initialize();
-	engine.Run();
+	RogaliqueGame RogaliqueGame;
+	RogaliqueGame.Initialize();
+	RogaliqueGame.Run();
 	sf::RenderWindow window(sf::VideoMode(330, 400), "SFML works!");
 
 	sf::Texture logo;

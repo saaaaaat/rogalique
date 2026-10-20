@@ -1,0 +1,36 @@
+#pragma once
+#include "GameObject.h"
+
+#ifdef ENGINE_EXPORTS
+#define ENGINE_API __declspec(dllexport)
+#else
+#define ENGINE_API __declspec(dllimport)
+#endif
+
+namespace Engine
+{
+	class  ENGINE_API GameWorld
+	{
+	public:
+		static GameWorld* Instance();
+
+		void Update(float deltaTime);
+		void Render();
+		void LateUpdate();
+
+		GameObject* CreateGameObject();
+		void DestroyGameObject(GameObject* gameObject);
+		void Clear();
+	private:
+		GameWorld() {}
+		~GameWorld() {}
+
+		GameWorld(GameWorld const&) = delete;
+		GameWorld& operator= (GameWorld const&) = delete;
+
+		std::vector<GameObject*> gameObjects = {};
+		std::vector<GameObject*> markedToDestroyGameObjects = {};
+
+		void DestroyGameObjectImmediate(GameObject* gameObject);
+	};
+}
