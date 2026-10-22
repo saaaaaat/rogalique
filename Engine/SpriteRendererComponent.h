@@ -1,9 +1,9 @@
 #pragma once
 
 #include "TransformComponent.h"
+#include "Vector.h"
 #include <SFML/Graphics.hpp>
 #include <memory>
-
 #ifdef ENGINE_EXPORTS
 #define ENGINE_API __declspec(dllexport)
 #else
@@ -12,7 +12,7 @@
 
 namespace Engine
 {
-	class  ENGINE_API SpriteRendererComponent : public Component
+	class ENGINE_API SpriteRendererComponent : public Component
 	{
 	public:
 		SpriteRendererComponent(GameObject* gameObject);
@@ -27,7 +27,11 @@ namespace Engine
 
 		void FlipX(bool flip);
 		void FlipY(bool flip);
+
+		void SetColor(const sf::Color& color) { sprite->setColor(color); }
+
 	private:
+		Vector2Df scale;
 		sf::Sprite* sprite;
 		TransformComponent* transform;
 

@@ -59,7 +59,7 @@ namespace RogaliqueGame
 
 	private:
 		std::vector<GameState> stateStack;
-		//иниц. полей при обьявление
+	
 		GameStateChangeType stateChangeType = GameStateChangeType::None;
 		GameStateType pendingGameStateType = GameStateType::None;
 		bool pendingGameStateIsExclusivelyVisible = false;

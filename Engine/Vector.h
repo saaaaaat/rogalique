@@ -83,11 +83,11 @@ namespace Engine
 		return left.x != right.x || left.y != right.y;
 	}
 
-	// This complex template allows us to convert any vector type to any other vector type (like our Vector2D to SFML's Vector and vice versa)
+	 
 	template<typename U, typename V>
 	U Convert(const V& v)
 	{
-		// decltype deduces type from expression
+	
 		return { static_cast<decltype(U::x)>(v.x), static_cast<decltype(U::y)>(v.y) };
 	}
 }

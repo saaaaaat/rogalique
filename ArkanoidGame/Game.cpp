@@ -19,7 +19,7 @@ namespace RogaliqueGame
 			{"Bob", SETTINGS.MAX_APPLES / 5},
 			{SETTINGS.PLAYER_NAME,0},
 		};
-		//иниц.состояния
+		
 
 		stateChangeType = GameStateChangeType::None;
 		pendingGameStateType = GameStateType::None;

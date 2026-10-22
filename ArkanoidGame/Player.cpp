@@ -5,9 +5,13 @@ namespace RogaliqueGame
 {
 	Player::Player()
 	{
-		gameObject = Engine::GameWorld::Instance()->CreateGameObject();
-		auto playerRenderer = gameObject->AddComponent<Engine::SpriteRendererComponent>();
+		gameObject = Engine::GameWorld::Instance()->CreateGameObject("Player");
+		if (gameObject == nullptr) return;
 
+		
+		startPosition = sf::Vector2f(640.f, 360.f);
+
+		auto playerRenderer = gameObject->AddComponent<Engine::SpriteRendererComponent>();
 		playerRenderer->SetTexture(*Engine::ResourceSystem::Instance()->GetTextureShared("ball"));
 		playerRenderer->SetPixelSize(32, 32);
 
@@ -15,11 +19,15 @@ namespace RogaliqueGame
 		playerCamera->SetWindow(&Engine::RenderSystem::Instance()->GetMainWindow());
 		playerCamera->SetBaseResolution(1280, 720);
 
-		auto playerInput = gameObject->AddComponent<Engine::InputComponent>();
+		auto transform = gameObject->GetComponent<Engine::TransformComponent>();
+		transform->SetWorldPosition(startPosition.x, startPosition.y);
+
+		auto body = gameObject->AddComponent<Engine::RigidbodyComponent>();
+		body->SetLinearDamping(20.f); 
+
+		gameObject->AddComponent<Engine::SpriteColliderComponent>();
+		gameObject->AddComponent<Engine::InputComponent>();
 	}
 
-	Engine::GameObject* Player::GetGameObject()
-	{
-		return gameObject;
-	}
+	Engine::GameObject* Player::GetGameObject() { return gameObject; }
 }

@@ -16,14 +16,18 @@ namespace Engine
 
 	void CameraComponent::Update(float deltaTime)
 	{
-		auto position = transform->GetWorldPosition();
-		auto rotation = transform->GetWorldRotation();
+		// фиксируем камеру в центре экрана
+		view->setCenter(640.f, 360.f);
+		view->setRotation(0.f);
 
-		view->setCenter(Convert<sf::Vector2f, Vector2Df>(position));
-		view->setRotation(rotation);
+		// область отображения
+		view->setSize(1280.f, -720.f);
 
-		window->setView(*view);
+		if (window) {
+			window->setView(*view);
+		}
 	}
+
 	void CameraComponent::Render()
 	{
 		if (window == nullptr)

@@ -3,6 +3,7 @@
 #include "GameStatePlaying.h"
 
 
+
 #include "GameStateMainMenu.h"
 
 #include <cassert>
@@ -21,7 +22,7 @@ namespace RogaliqueGame
 		case GameStateType::Playing:
 			data = std::make_shared<GameStatePlayingData>();
 			break;
-		
+	
 		default:
 			assert(false);
 			break;

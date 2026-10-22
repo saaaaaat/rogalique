@@ -4,6 +4,7 @@
 #include <string>
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
+#include <iostream>
 
 #ifdef ENGINE_EXPORTS
 #define ENGINE_API __declspec(dllexport)
@@ -13,7 +14,7 @@
 
 namespace Engine
 {
-	class  ENGINE_API ResourceSystem
+	class ENGINE_API ResourceSystem
 	{
 	public:
 		static ResourceSystem* Instance();
@@ -29,11 +30,18 @@ namespace Engine
 		int GetTextureMapElementsCount(const std::string& name) const;
 		void DeleteSharedTextureMap(const std::string& name);
 
+		void LoadMusic(const std::string& name, const std::string& sourcePath);
+		sf::Music* GetMusic(const std::string& name);
+		
+
 		void Clear();
 
 	private:
 		std::map<std::string, sf::Texture*> textures;
 		std::map<std::string, std::vector<sf::Texture*>> textureMaps;
+
+		// хранилище музыки
+		std::map<std::string, sf::Music*> musics;
 
 		ResourceSystem() {}
 		~ResourceSystem() {}

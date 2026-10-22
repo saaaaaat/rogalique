@@ -20,6 +20,8 @@ namespace Engine
 
 		void Render(const sf::Drawable& drawable);
 
+
+
 	private:
 		sf::RenderWindow* window;
 

@@ -11,7 +11,7 @@ namespace RogaliqueGame
 	
 
 	Application::Application() :
-		window(sf::VideoMode(SETTINGS.SCREEN_WIDTH, SETTINGS.SCREEN_HEIGHT), SETTINGS.GAME_NAME)//иниц. в списке
+		window(sf::VideoMode(SETTINGS.SCREEN_WIDTH, SETTINGS.SCREEN_HEIGHT), SETTINGS.GAME_NAME)
 	{
 		unsigned int seed = (unsigned int)time(nullptr);
 		srand(seed);
