@@ -121,7 +121,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(SolutionDir)\SFML\SFML-2.5.1\include;%(AdditionalIncludeDirectories);$(SolutionDir)Engine</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
@@ -163,6 +163,7 @@
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="DeveloperLevel .cpp" />
     <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Floor.cpp" />
     <ClCompile Include="GameState.cpp" />
     <ClCompile Include="GameStateData.cpp" />
     <ClCompile Include="Player.cpp" />
@@ -180,6 +181,7 @@
     <ClInclude Include="Collidable.h" />
     <ClInclude Include="DeveloperLevel.h" />
     <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Floor.h" />
     <ClInclude Include="GameState.h" />
     <ClInclude Include="GameStateData.h" />
     <ClInclude Include="Player.h" />

@@ -6,6 +6,7 @@
 #include "Player.h"
 #include "Enemy.h"
 #include "Wall.h"
+#include "Floor.h"
 
 using namespace Engine;
 

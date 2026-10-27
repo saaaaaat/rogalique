@@ -1,12 +1,22 @@
 #include "Player.h"
+#include "Logger.h"
+#include "HealthComponent.h"
+#include "AttackComponent.h"
 #include <ResourceSystem.h>
+
 
 namespace RogaliqueGame
 {
 	Player::Player()
 	{
+		LOG_INFO("Создание игрока...");
 		gameObject = Engine::GameWorld::Instance()->CreateGameObject("Player");
-		if (gameObject == nullptr) return;
+
+		if (gameObject == nullptr) 
+		{
+			LOG_ERROR("Не удалось создать gameObject для игрока!");
+			return;
+		}
 
 		
 		startPosition = sf::Vector2f(640.f, 360.f);
@@ -27,7 +37,16 @@ namespace RogaliqueGame
 
 		gameObject->AddComponent<Engine::SpriteColliderComponent>();
 		gameObject->AddComponent<Engine::InputComponent>();
+
+
+		gameObject->AddComponent<Engine::HealthComponent>(100, 30);
+		gameObject->AddComponent<Engine::AttackComponent>();
+	
+
+		LOG_INFO("Игрок успешно создан!");
+	
 	}
 
 	Engine::GameObject* Player::GetGameObject() { return gameObject; }
+
 }

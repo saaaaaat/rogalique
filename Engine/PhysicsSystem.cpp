@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "PhysicsSystem.h"
+#include <cassert>
 
 namespace Engine
 {
@@ -19,6 +20,9 @@ namespace Engine
 		for (int i = 0; i < colliders.size(); i++)
 		{
 			auto body = colliders[i]->GetGameObject()->GetComponent<RigidbodyComponent>();
+
+			assert(body != nullptr && "ОШИБКА: У объекта с коллайдером нет RigidbodyComponent!");
+
 			if (body->GetKinematic())
 			{
 				continue;

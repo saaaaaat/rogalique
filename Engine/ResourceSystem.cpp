@@ -1,6 +1,8 @@
 #include "pch.h"
 #include "ResourceSystem.h"
+#include "Logger.h"
 #include <iostream>
+#include <stdexcept>
 
 namespace Engine
 {
@@ -17,6 +19,11 @@ namespace Engine
 		if (newTexture->loadFromFile(sourcePath)) {
 			newTexture->setSmooth(isSmooth);
 			textures.emplace(name, newTexture);
+			LOG_INFO("Успешно загружена текстура: " + name);
+		}
+		else {
+			LOG_ERROR("НЕ УДАЛОСЬ загрузить текстуру: " + sourcePath); 
+			throw std::runtime_error("Критическая ошибка: Не найдена текстура " + sourcePath);
 		}
 	}
 	const sf::Texture* ResourceSystem::GetTextureShared(const std::string& name) const { return textures.find(name)->second; }
@@ -39,9 +46,10 @@ namespace Engine
 		sf::Music* newMusic = new sf::Music();
 		if (newMusic->openFromFile(sourcePath)) {
 			musics.emplace(name, newMusic);
+			LOG_INFO("Успешно загружена музыка: " + name); 
 		}
 		else {
-			std::cout << "Ошибка: не удалось загрузить музыку: " << sourcePath << std::endl;
+			LOG_ERROR("НЕ УДАЛОСЬ загрузить музыку: " + sourcePath); 
 		}
 	}
 

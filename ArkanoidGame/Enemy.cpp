@@ -5,9 +5,12 @@
 #include "RigidbodyComponent.h"
 #include "SpriteColliderComponent.h"
 #include "ChaseComponent.h"
+#include "Logger.h"
+#include "HealthComponent.h"
 
 namespace RogaliqueGame {
     Enemy::Enemy() {
+        LOG_INFO("Создание врага...");
         gameObject = Engine::GameWorld::Instance()->CreateGameObject("Enemy");
         
         startPosition = sf::Vector2f(1100.f, 100.f); 
@@ -25,5 +28,9 @@ namespace RogaliqueGame {
         
         gameObject->AddComponent<Engine::SpriteColliderComponent>();
         gameObject->AddComponent<Engine::ChaseComponent>();
+        // Враг: 50 HP, без брони
+        gameObject->AddComponent<Engine::HealthComponent>(50, 0);
+
+        LOG_INFO("Враг успешно создан!");
     }
 }
