@@ -16,6 +16,6 @@ namespace Engine
         void Update(float deltaTime) override;
         void Render() override {}
     private:
-        float cooldown = 0.0f; 
+        float cooldown = 0.0f;
     };
 }

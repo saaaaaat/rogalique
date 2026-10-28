@@ -184,6 +184,8 @@
     <ClInclude Include="Floor.h" />
     <ClInclude Include="GameState.h" />
     <ClInclude Include="GameStateData.h" />
+    <ClInclude Include="IDelayedAction.h" />
+    <ClInclude Include="IObserver.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="randomizer.h" />
     <ClInclude Include="Sprite.h" />

@@ -1,4 +1,5 @@
 #pragma once
+
 #include <iostream>
 #include <vector>
 #include <memory>
@@ -8,11 +9,9 @@
 #include "Wall.h"
 #include "Floor.h"
 
-using namespace Engine;
-
 namespace RogaliqueGame
 {
-    class DeveloperLevel : public Scene
+    class DeveloperLevel : public Engine::Scene
     {
     public:
         void Start() override;

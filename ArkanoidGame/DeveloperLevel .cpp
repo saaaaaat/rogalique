@@ -1,9 +1,10 @@
+#include "pch.h"
 #include "DeveloperLevel.h"
 #include "Application.h" 
 #include "Game.h"    
 #include "GameWorld.h" 
 #include "Logger.h"
-#include "HealthComponent.h"
+#include "HealthComponent.h" // <--- Важно для проверки здоровья
 #include <cmath>
 
 using namespace Engine;
@@ -12,7 +13,7 @@ namespace RogaliqueGame
 {
     void DeveloperLevel::Start()
     {
-        LOG_INFO("Запуск уровня DeveloperLevel");
+        LOG_INFO("Starting level DeveloperLevel");
 
         auto floor = std::make_shared<Floor>(sf::Vector2f(640.f, 360.f), sf::Vector2f(1280.f, 720.f));
 
@@ -33,48 +34,20 @@ namespace RogaliqueGame
         walls.push_back(std::make_shared<Wall>(sf::Vector2f(640, 200), sf::Vector2f(300, 40)));
         walls.push_back(std::make_shared<Wall>(sf::Vector2f(640, 520), sf::Vector2f(300, 40)));
 
-        LOG_INFO("Уровень успешно загружен!");
+        LOG_INFO("--- Level loaded successfully! ---");
     }
 
     void DeveloperLevel::Update(float timeDelta)
     {
-        auto playerTransform = player->GetGameObject()->GetComponent<TransformComponent>();
-        auto enemyTransform = enemy->GetGameObject()->GetComponent<TransformComponent>();
-
-        if (playerTransform && enemyTransform)
+        if (player)
         {
-            Vector2Df pPos = playerTransform->GetWorldPosition();
-            Vector2Df ePos = enemyTransform->GetWorldPosition();
+            auto playerHealth = player->GetGameObject()->GetComponent<HealthComponent>();
 
-            float dist = std::sqrt(std::pow(pPos.x - ePos.x, 2) + std::pow(pPos.y - ePos.y, 2));
-
-            // Если они близко (поставим 100, чтобы наверняка)
-            if (dist < 100.f)
+            // Если игрок умер — перезапускаем игру
+            if (playerHealth && playerHealth->IsDead())
             {
-                // 1. Орем в консоль напрямую, без логгера
-                std::cout << "!!! РАССТОЯНИЕ: " << dist << " (БЛИЗКО) !!!" << std::endl;
-
-                // 2. Проверяем, видим ли мы компонент здоровья
-                auto playerHealth = player->GetGameObject()->GetComponent<HealthComponent>();
-                auto enemyHealth = enemy->GetGameObject()->GetComponent<HealthComponent>();
-
-                if (playerHealth == nullptr) {
-                    std::cout << "ОШИБКА: У ИГРОКА НЕТ HEALTHCOMPONENT!" << std::endl;
-                }
-                if (enemyHealth == nullptr) {
-                    std::cout << "ОШИБКА: У ВРАГА НЕТ HEALTHCOMPONENT!" << std::endl;
-                }
-
-                if (playerHealth && enemyHealth)
-                {
-                    LOG_INFO("Атака! Наносим урон.");
-                    playerHealth->TakeDamage(15);
-                    enemyHealth->TakeDamage(5);
-
-                    // Откидываем на старт
-                    playerTransform->SetWorldPosition(player->startPosition.x, player->startPosition.y);
-                    enemyTransform->SetWorldPosition(enemy->startPosition.x, enemyTransform->GetWorldPosition().y);
-                }
+                LOG_INFO("Player is DEAD! Restarting game...");
+                Restart();
             }
         }
     }
@@ -87,6 +60,6 @@ namespace RogaliqueGame
 
     void DeveloperLevel::Stop()
     {
-        ::Engine::GameWorld::Instance()->Clear();
+        Engine::GameWorld::Instance()->Clear();
     }
 }

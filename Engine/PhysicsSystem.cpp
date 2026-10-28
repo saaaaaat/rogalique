@@ -20,24 +20,23 @@ namespace Engine
 		for (int i = 0; i < colliders.size(); i++)
 		{
 			auto body = colliders[i]->GetGameObject()->GetComponent<RigidbodyComponent>();
+			assert(body != nullptr && "ERROR: Object with collider has no RigidbodyComponent!");
 
-			assert(body != nullptr && "ОШИБКА: У объекта с коллайдером нет RigidbodyComponent!");
-
-			if (body->GetKinematic())
-			{
-				continue;
-			}
+			if (body->GetKinematic()) continue;
 
 			for (int j = 0; j < colliders.size(); j++)
 			{
-				if (j == i)
-				{
-					continue;
-				}
+				if (j == i) continue;
 
 				sf::FloatRect intersection;
 				if (colliders[i]->bounds.intersects(colliders[j]->bounds, intersection))
 				{
+					std::string name1 = colliders[i]->GetGameObject()->GetName();
+					std::string name2 = colliders[j]->GetGameObject()->GetName();
+					if ((name1 == "Player" && name2 == "Enemy") || (name1 == "Enemy" && name2 == "Player")) {
+						continue;
+					}
+
 					if (colliders[i]->isTrigger != colliders[j]->isTrigger)
 					{
 						if (triggersEnteredPair.find(colliders[i]) == triggersEnteredPair.end() && triggersEnteredPair.find(colliders[j]) == triggersEnteredPair.end())
@@ -45,7 +44,6 @@ namespace Engine
 							auto trigger = new Trigger(colliders[i], colliders[j]);
 							colliders[i]->OnTriggerEnter(*trigger);
 							colliders[j]->OnTriggerEnter(*trigger);
-
 							triggersEnteredPair.emplace(colliders[i], colliders[j]);
 						}
 					}
@@ -54,35 +52,18 @@ namespace Engine
 						float intersectionWidth = intersection.width;
 						float intersectionHeight = intersection.height;
 						Vector2Df intersectionPosition = { intersection.left - 0.5f * intersectionWidth, intersection.top - 0.5f * intersectionHeight };
-
 						Vector2Df aPosition = { colliders[i]->bounds.left,  colliders[i]->bounds.top };
 						auto aTransform = colliders[i]->GetGameObject()->GetComponent<TransformComponent>();
 
 						if (intersectionWidth > intersectionHeight)
 						{
-							if (intersectionPosition.y > aPosition.y)
-							{
-								aTransform->MoveBy({ 0, -intersectionHeight });
-								std::cout << "Top collision" << std::endl;
-							}
-							else
-							{
-								aTransform->MoveBy({ 0, intersectionHeight });
-								std::cout << "Down collision" << std::endl;
-							}
+							if (intersectionPosition.y > aPosition.y) aTransform->MoveBy({ 0, -intersectionHeight });
+							else aTransform->MoveBy({ 0, intersectionHeight });
 						}
 						else
 						{
-							if (intersectionPosition.x > aPosition.x)
-							{
-								aTransform->MoveBy({ -intersectionWidth, 0.f });
-								std::cout << "Right collision" << std::endl;
-							}
-							else
-							{
-								aTransform->MoveBy({ intersectionWidth, 0.f });
-								std::cout << "Left collision" << std::endl;
-							}
+							if (intersectionPosition.x > aPosition.x) aTransform->MoveBy({ -intersectionWidth, 0.f });
+							else aTransform->MoveBy({ intersectionWidth, 0.f });
 						}
 
 						auto collision = new Collision(colliders[i], colliders[j], intersection);
@@ -101,7 +82,6 @@ namespace Engine
 				auto trigger = new Trigger(triggeredPair->first, triggeredPair->second);
 				triggeredPair->first->OnTriggerExit(*trigger);
 				triggeredPair->second->OnTriggerExit(*trigger);
-
 				triggersEnteredPair.erase(triggeredPair);
 			}
 		}
@@ -109,13 +89,10 @@ namespace Engine
 
 	void PhysicsSystem::Subscribe(ColliderComponent* collider)
 	{
-		std::cout << "Subscribe " << collider << std::endl;
 		colliders.push_back(collider);
 	}
 	void PhysicsSystem::Unsubscribe(ColliderComponent* collider)
 	{
-		std::cout << "Unsubscribe " << collider << std::endl;
-
 		colliders.erase(std::remove_if(colliders.begin(), colliders.end(), [collider](ColliderComponent* obj) { return obj == collider; }), colliders.end());
 	}
 }
