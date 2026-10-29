@@ -40,10 +40,10 @@ namespace RogaliqueGame
 		const unsigned int BLOCK_WIDTH = (SCREEN_WIDTH - (BLOCKS_COUNT_IN_ROW + 1) * BLOCK_SHIFT) / BLOCKS_COUNT_IN_ROW;
 		const unsigned int BLOCK_HEIGHT = 20;
 
-		const int POINTS_SIMPLE_BLOCK = 10;      // обычный
-		const int POINTS_DURABLE_BLOCK = 30;     // 3 удара
-		const int POINTS_GLASS_BLOCK = 20;       // стеклянный
-		const int POINTS_UNBREAKABLE_BLOCK = 0;  // неразрушаемый (не даёт очков)
+		const int POINTS_SIMPLE_BLOCK = 10;   
+		const int POINTS_DURABLE_BLOCK = 30;     
+		const int POINTS_GLASS_BLOCK = 20;       
+		const int POINTS_UNBREAKABLE_BLOCK = 0;  
 
 		const int MAX_RECORDS_TABLE_SIZE = 5;
 		const char* PLAYER_NAME = "Player";
