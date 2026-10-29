@@ -4,7 +4,7 @@
 
 namespace RogaliqueGame
 {
-	 // обьекты с отложенным временем, плавное исчезновение
+	
 	class IDelayedAction
 	{
 	protected:

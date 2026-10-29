@@ -4,8 +4,9 @@
 #include "Game.h"    
 #include "GameWorld.h" 
 #include "Logger.h"
-#include "HealthComponent.h" // <--- Важно для проверки здоровья
+#include "HealthComponent.h" 
 #include <cmath>
+#include <cassert>
 
 using namespace Engine;
 
@@ -43,10 +44,9 @@ namespace RogaliqueGame
         {
             auto playerHealth = player->GetGameObject()->GetComponent<HealthComponent>();
 
-            // Если игрок умер — перезапускаем игру
             if (playerHealth && playerHealth->IsDead())
             {
-                LOG_INFO("Player is DEAD! Restarting game...");
+                LOG_WARN("Player is DEAD! Restarting game...");
                 Restart();
             }
         }
@@ -54,6 +54,7 @@ namespace RogaliqueGame
 
     void DeveloperLevel::Restart()
     {
+        LOG_INFO("Restarting level...");
         Stop();
         Start();
     }

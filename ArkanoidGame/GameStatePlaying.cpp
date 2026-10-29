@@ -3,7 +3,7 @@
 #include "Game.h"
 #include "RenderSystem.h"
 #include "Logger.h"
-#include "GameWorld.h" // <--- Важно для Engine::GameWorld
+#include "GameWorld.h" 
 #include <iostream>
 
 namespace RogaliqueGame
@@ -12,7 +12,7 @@ namespace RogaliqueGame
 	{
 		LOG_INFO("--- GameStatePlaying Init ---");
 
-		// Очищаем мир от старых объектов перед созданием уровня
+		// очистка от старыз обьектов
 		Engine::GameWorld::Instance()->Clear();
 
 		level = std::make_shared<DeveloperLevel>();
@@ -29,13 +29,13 @@ namespace RogaliqueGame
 
 	void GameStatePlayingData::Update(float timeDelta)
 	{
-		// 1. Обновляем логику уровня (если она есть)
+		
 		if (level)
 		{
 			level->Update(timeDelta);
 		}
 
-		// 2. Обновляем движок (здесь работают все компоненты: физика, AttackComponent, HealthComponent)
+		// обновляю движок
 		Engine::GameWorld::Instance()->Update(timeDelta);
 	}
 

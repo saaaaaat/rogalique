@@ -3,8 +3,10 @@
 #include "GameWorld.h"
 #include "TransformComponent.h"
 #include "HealthComponent.h"
+#include "Logger.h"
 #include <cmath>
 #include <iostream>
+#include <cassert>
 
 namespace Engine
 {
@@ -22,6 +24,9 @@ namespace Engine
             if (obj->GetName() == "Enemy") { target = obj; break; }
         }
 
+        // Ассерт: если мы игрок, враг должен быть в мире
+        assert(target != nullptr && "ERROR: No Enemy found for Player to attack!");
+
         if (!target || target == GetGameObject()) return;
 
         auto myTransform = GetGameObject()->GetComponent<TransformComponent>();
@@ -29,7 +34,10 @@ namespace Engine
         auto myHealth = GetGameObject()->GetComponent<HealthComponent>();
         auto targetHealth = target->GetComponent<HealthComponent>();
 
-        // НОВАЯ ПРОВЕРКА: Если кто-то из них мертв — не бьем!
+        // Ассерт на здоровье
+        assert(myHealth != nullptr && "ERROR: Player has no HealthComponent!");
+        assert(targetHealth != nullptr && "ERROR: Enemy has no HealthComponent!");
+
         if (myHealth->IsDead() || targetHealth->IsDead()) return;
 
         if (myTransform && targetTransform && myHealth && targetHealth)
@@ -41,15 +49,19 @@ namespace Engine
             if (dist < 45.f)
             {
                 std::cout << "--- !!! PLAYER COMBO !!! ---" << std::endl;
+                LOG_INFO("--- !!! PLAYER COMBO !!! ---");
 
                 targetHealth->TakeDamage(10);
                 std::cout << "Player MAIN hit (10 dmg)!" << std::endl;
+                LOG_INFO("Player MAIN hit (10 dmg)!");
 
                 targetHealth->TakeDamage(5);
                 std::cout << "Player BONUS hit (5 dmg)!" << std::endl;
+                LOG_INFO("Player BONUS hit (5 dmg)!");
 
                 myHealth->TakeDamage(20);
                 std::cout << "Enemy hits back (20 dmg)!" << std::endl;
+                LOG_WARN("Enemy hits back (20 dmg)!");
 
                 cooldown = 5.0f;
             }
