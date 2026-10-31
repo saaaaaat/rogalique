@@ -1,6 +1,5 @@
 #include "pch.h"
 #include "Engine.h"
-#include <iostream>
 #include "GameWorld.h"
 #include "RenderSystem.h"
 
@@ -18,6 +17,11 @@ namespace Engine
 		srand(seed);
 	}
 
+	void Engine::SetUpdateFunction(std::function<void(float)> updateFunc)
+	{
+		customUpdateFunc = updateFunc;
+	}
+
 	void Engine::Run()
 	{
 		sf::Clock gameClock;
@@ -31,17 +35,15 @@ namespace Engine
 			while (RenderSystem::Instance()->GetMainWindow().pollEvent(event))
 			{
 				if (event.type == sf::Event::Closed)
-				{
 					RenderSystem::Instance()->GetMainWindow().close();
-				}
 			}
 
-			if (!RenderSystem::Instance()->GetMainWindow().isOpen())
-			{
-				break;
-			}
+			if (!RenderSystem::Instance()->GetMainWindow().isOpen()) break;
 
 			RenderSystem::Instance()->GetMainWindow().clear();
+
+			
+			if (customUpdateFunc) customUpdateFunc(deltaTime);
 
 			GameWorld::Instance()->Update(deltaTime);
 			GameWorld::Instance()->FixedUpdate(deltaTime);
