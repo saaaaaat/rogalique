@@ -2,8 +2,11 @@
 #include "Application.h" 
 #include "Game.h"    
 #include "GameWorld.h" 
+
+#include "TransformComponent.h"
 #include <cmath>
 #include <iostream>
+#include <SFML/Window/Keyboard.hpp> 
 
 using namespace Engine;
 
@@ -31,6 +34,19 @@ namespace RogaliqueGame
 
     void DeveloperLevel::Update(float timeDelta)
     {
+       
+        if (::Engine::GameWorld::Instance()->IsPaused())
+        {
+          
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Enter))
+            {
+                std::cout << "Restarting game..." << std::endl;
+                ::Engine::GameWorld::Instance()->SetPaused(false);
+                Restart();
+            }
+            return; 
+        }
+
         if (!player || !enemy) return;
 
         auto pTransform = player->GetGameObject()->GetComponent<TransformComponent>();
@@ -43,13 +59,10 @@ namespace RogaliqueGame
 
             float dist = std::sqrt(std::pow(pPos.x - ePos.x, 2) + std::pow(pPos.y - ePos.y, 2));
 
-         
             if (dist < 32.f)
             {
-                std::cout << " GAME OVER  RESTARTING..." << std::endl;
-
-                
-                Restart();
+                std::cout << " GAME OVER " << std::endl;
+                ::Engine::GameWorld::Instance()->SetPaused(true);
             }
         }
     }

@@ -27,6 +27,9 @@ namespace Engine
 
 		void Print() const;
 
+		void SetPaused(bool paused) { isPaused = paused; }
+		bool IsPaused() const { return isPaused; }
+
 	
 		const std::vector<GameObject*>& GetGameObjects() const { return gameObjects; }
 	private:
@@ -40,6 +43,7 @@ namespace Engine
 
 		std::vector<GameObject*> gameObjects = {};
 		std::vector<GameObject*> markedToDestroyGameObjects = {};
+		bool isPaused = false;
 
 		void DestroyGameObjectImmediate(GameObject* gameObject);
 	};

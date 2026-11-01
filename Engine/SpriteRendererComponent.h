@@ -29,6 +29,7 @@ namespace Engine
 		void FlipY(bool flip);
 
 		void SetColor(const sf::Color& color) { sprite->setColor(color); }
+		Vector2Df GetScale() const { return scale; }
 
 	private:
 		Vector2Df scale;

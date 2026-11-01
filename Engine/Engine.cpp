@@ -13,13 +13,17 @@ namespace Engine
 
 	Engine::Engine()
 	{
-		unsigned int seed = (unsigned int)time(nullptr);
-		srand(seed);
+		srand((unsigned int)time(nullptr));
 	}
 
 	void Engine::SetUpdateFunction(std::function<void(float)> updateFunc)
 	{
 		customUpdateFunc = updateFunc;
+	}
+
+	void Engine::SetRenderFunction(std::function<void(sf::RenderWindow&)> renderFunc)
+	{
+		customRenderFunc = renderFunc;
 	}
 
 	void Engine::Run()
@@ -42,13 +46,24 @@ namespace Engine
 
 			RenderSystem::Instance()->GetMainWindow().clear();
 
-			
-			if (customUpdateFunc) customUpdateFunc(deltaTime);
+			if (customUpdateFunc)
+			{
+				customUpdateFunc(deltaTime);
+			}
 
-			GameWorld::Instance()->Update(deltaTime);
-			GameWorld::Instance()->FixedUpdate(deltaTime);
+			
+			if (!GameWorld::Instance()->IsPaused())
+			{
+				GameWorld::Instance()->Update(deltaTime);
+				GameWorld::Instance()->FixedUpdate(deltaTime);
+			}
 			GameWorld::Instance()->Render();
 			GameWorld::Instance()->LateUpdate();
+
+			if (customRenderFunc)
+			{
+				customRenderFunc(RenderSystem::Instance()->GetMainWindow());
+			}
 
 			RenderSystem::Instance()->GetMainWindow().display();
 		}

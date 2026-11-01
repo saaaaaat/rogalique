@@ -28,16 +28,23 @@ namespace Engine
 
 	void SpriteColliderComponent::Update(float deltaTime)
 	{
-		
 		auto transform = GetGameObject()->GetComponent<TransformComponent>();
-		if (transform && sprite)
+		auto renderer = GetGameObject()->GetComponent<SpriteRendererComponent>();
+
+		if (transform && renderer && sprite && sprite->getTexture())
 		{
+		
 			sf::Vector2f pos = Convert<sf::Vector2f, Vector2Df>(transform->GetWorldPosition());
-			sf::FloatRect spriteBounds = sprite->getGlobalBounds();
 
-			float width = spriteBounds.width;
-			float height = spriteBounds.height;
+		
+			sf::Vector2u textureSize = sprite->getTexture()->getSize();
 
+		
+			Vector2Df scale = renderer->GetScale();
+
+		
+			float width = std::abs(textureSize.x * scale.x);
+			float height = std::abs(textureSize.y * scale.y);
 			bounds = sf::FloatRect(pos.x - width / 2.f, pos.y - height / 2.f, width, height);
 		}
 	}

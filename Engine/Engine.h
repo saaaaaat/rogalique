@@ -21,11 +21,17 @@ namespace Engine
         void Run();
 
         void SetUpdateFunction(std::function<void(float)> updateFunc);
+        void SetRenderFunction(std::function<void(sf::RenderWindow&)> renderFunc);
+
+        void SetPaused(bool paused) { isPaused = paused; } 
+        bool IsPaused() const { return isPaused; }
 
     private:
         Engine();
         ~Engine() = default;
 
         std::function<void(float)> customUpdateFunc;
+        std::function<void(sf::RenderWindow&)> customRenderFunc; 
+        bool isPaused = false;
     };
 }
