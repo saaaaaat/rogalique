@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "PhysicsSystem.h"
+#include <cassert>
 
 namespace Engine
 {
@@ -19,6 +20,7 @@ namespace Engine
 		for (int i = 0; i < colliders.size(); i++)
 		{
 			auto body = colliders[i]->GetGameObject()->GetComponent<RigidbodyComponent>();
+
 			if (body->GetKinematic()) continue;
 
 			for (int j = 0; j < colliders.size(); j++)
@@ -28,7 +30,6 @@ namespace Engine
 				sf::FloatRect intersection;
 				if (colliders[i]->bounds.intersects(colliders[j]->bounds, intersection))
 				{
-				
 					std::string name1 = colliders[i]->GetGameObject()->GetName();
 					std::string name2 = colliders[j]->GetGameObject()->GetName();
 					if ((name1 == "Player" && name2 == "Enemy") || (name1 == "Enemy" && name2 == "Player")) {

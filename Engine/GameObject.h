@@ -2,6 +2,9 @@
 
 #include "TransformComponent.h"
 #include <iostream>
+#include <vector>
+#include <string>
+#include <utility>
 
 namespace Engine
 {
@@ -21,8 +24,8 @@ namespace Engine
 		void Update(float deltaTime);
 		void Render();
 
-		template <typename T>
-		T* AddComponent()
+		template <typename T, typename... Args>
+		T* AddComponent(Args&&... args)
 		{
 			if constexpr (!std::is_base_of<Component, T>::value)
 			{
@@ -39,7 +42,7 @@ namespace Engine
 				}
 			}
 
-			T* newComponent = new T(this);
+			T* newComponent = new T(this, std::forward<Args>(args)...);
 			components.push_back(newComponent);
 
 			return newComponent;

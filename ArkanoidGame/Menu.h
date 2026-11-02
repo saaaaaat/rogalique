@@ -22,7 +22,7 @@ namespace RogaliqueGame
 
 		std::function<void(MenuItem& item)> onPressCallback;
 
-		MenuItem* parent = nullptr;// иницилизация указателя
+		MenuItem* parent = nullptr;
 	};
 
 	class Menu
