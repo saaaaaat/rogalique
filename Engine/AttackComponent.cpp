@@ -24,9 +24,7 @@ namespace Engine
             if (obj->GetName() == "Enemy") { target = obj; break; }
         }
 
-        // Ассерт: если мы игрок, враг должен быть в мире
-        //assert(target != nullptr && "ERROR: No Enemy found for Player to attack!");
-
+      
         if (!target || target == GetGameObject()) return;
 
         auto myTransform = GetGameObject()->GetComponent<TransformComponent>();
@@ -34,7 +32,7 @@ namespace Engine
         auto myHealth = GetGameObject()->GetComponent<HealthComponent>();
         auto targetHealth = target->GetComponent<HealthComponent>();
 
-        // Ассерт на здоровье
+    
         assert(myHealth != nullptr && "ERROR: Player has no HealthComponent!");
         assert(targetHealth != nullptr && "ERROR: Enemy has no HealthComponent!");
 
