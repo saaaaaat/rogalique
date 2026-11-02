@@ -76,5 +76,6 @@ namespace RogaliqueGame
     void DeveloperLevel::Stop()
     {
         ::Engine::GameWorld::Instance()->Clear();
+        walls.clear();
     }
 }
