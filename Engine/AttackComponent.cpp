@@ -24,8 +24,7 @@ namespace Engine
             if (obj->GetName() == "Enemy") { target = obj; break; }
         }
 
-        // Ассерт: если мы игрок, враг должен быть в мире
-        //assert(target != nullptr && "ERROR: No Enemy found for Player to attack!");
+       
 
         if (!target || target == GetGameObject()) return;
 
