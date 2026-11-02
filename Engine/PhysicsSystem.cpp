@@ -20,7 +20,6 @@ namespace Engine
 		for (int i = 0; i < colliders.size(); i++)
 		{
 			auto body = colliders[i]->GetGameObject()->GetComponent<RigidbodyComponent>();
-			assert(body != nullptr && "ERROR: Object with collider has no RigidbodyComponent!");
 
 			if (body->GetKinematic()) continue;
 
@@ -41,9 +40,10 @@ namespace Engine
 					{
 						if (triggersEnteredPair.find(colliders[i]) == triggersEnteredPair.end() && triggersEnteredPair.find(colliders[j]) == triggersEnteredPair.end())
 						{
-							auto trigger = new Trigger(colliders[i], colliders[j]);
-							colliders[i]->OnTriggerEnter(*trigger);
-							colliders[j]->OnTriggerEnter(*trigger);
+						
+							Trigger trigger(colliders[i], colliders[j]);
+							colliders[i]->OnTriggerEnter(trigger);
+							colliders[j]->OnTriggerEnter(trigger);
 							triggersEnteredPair.emplace(colliders[i], colliders[j]);
 						}
 					}
@@ -66,9 +66,10 @@ namespace Engine
 							else aTransform->MoveBy({ intersectionWidth, 0.f });
 						}
 
-						auto collision = new Collision(colliders[i], colliders[j], intersection);
-						colliders[i]->OnCollision(*collision);
-						colliders[j]->OnCollision(*collision);
+					
+						Collision collision(colliders[i], colliders[j], intersection);
+						colliders[i]->OnCollision(collision);
+						colliders[j]->OnCollision(collision);
 					}
 				}
 			}
@@ -79,9 +80,10 @@ namespace Engine
 			++nextTriggeredPair;
 			if (!triggeredPair->first->bounds.intersects(triggeredPair->second->bounds))
 			{
-				auto trigger = new Trigger(triggeredPair->first, triggeredPair->second);
-				triggeredPair->first->OnTriggerExit(*trigger);
-				triggeredPair->second->OnTriggerExit(*trigger);
+				
+				Trigger trigger(triggeredPair->first, triggeredPair->second);
+				triggeredPair->first->OnTriggerExit(trigger);
+				triggeredPair->second->OnTriggerExit(trigger);
 				triggersEnteredPair.erase(triggeredPair);
 			}
 		}

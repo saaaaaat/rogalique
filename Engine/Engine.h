@@ -1,8 +1,7 @@
 #pragma once
 #define NOMINMAX
-
 #include "SFML/Graphics.hpp"
-
+#include <functional>
 
 #ifdef ENGINE_EXPORTS
 #define ENGINE_API __declspec(dllexport)
@@ -12,7 +11,6 @@
 
 namespace Engine
 {
-
     class ENGINE_API Engine
     {
     public:
@@ -22,8 +20,18 @@ namespace Engine
         static Engine* Instance();
         void Run();
 
+        void SetUpdateFunction(std::function<void(float)> updateFunc);
+        void SetRenderFunction(std::function<void(sf::RenderWindow&)> renderFunc);
+
+        void SetPaused(bool paused) { isPaused = paused; } 
+        bool IsPaused() const { return isPaused; }
+
     private:
         Engine();
         ~Engine() = default;
+
+        std::function<void(float)> customUpdateFunc;
+        std::function<void(sf::RenderWindow&)> customRenderFunc; 
+        bool isPaused = false;
     };
 }

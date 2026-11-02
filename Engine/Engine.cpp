@@ -1,6 +1,5 @@
 #include "pch.h"
 #include "Engine.h"
-#include <iostream>
 #include "GameWorld.h"
 #include "RenderSystem.h"
 
@@ -14,8 +13,17 @@ namespace Engine
 
 	Engine::Engine()
 	{
-		unsigned int seed = (unsigned int)time(nullptr);
-		srand(seed);
+		srand((unsigned int)time(nullptr));
+	}
+
+	void Engine::SetUpdateFunction(std::function<void(float)> updateFunc)
+	{
+		customUpdateFunc = updateFunc;
+	}
+
+	void Engine::SetRenderFunction(std::function<void(sf::RenderWindow&)> renderFunc)
+	{
+		customRenderFunc = renderFunc;
 	}
 
 	void Engine::Run()
@@ -31,22 +39,31 @@ namespace Engine
 			while (RenderSystem::Instance()->GetMainWindow().pollEvent(event))
 			{
 				if (event.type == sf::Event::Closed)
-				{
 					RenderSystem::Instance()->GetMainWindow().close();
-				}
 			}
 
-			if (!RenderSystem::Instance()->GetMainWindow().isOpen())
-			{
-				break;
-			}
+			if (!RenderSystem::Instance()->GetMainWindow().isOpen()) break;
 
 			RenderSystem::Instance()->GetMainWindow().clear();
 
-			GameWorld::Instance()->Update(deltaTime);
-			GameWorld::Instance()->FixedUpdate(deltaTime);
+			if (customUpdateFunc)
+			{
+				customUpdateFunc(deltaTime);
+			}
+
+			
+			if (!GameWorld::Instance()->IsPaused())
+			{
+				GameWorld::Instance()->Update(deltaTime);
+				GameWorld::Instance()->FixedUpdate(deltaTime);
+			}
 			GameWorld::Instance()->Render();
 			GameWorld::Instance()->LateUpdate();
+
+			if (customRenderFunc)
+			{
+				customRenderFunc(RenderSystem::Instance()->GetMainWindow());
+			}
 
 			RenderSystem::Instance()->GetMainWindow().display();
 		}

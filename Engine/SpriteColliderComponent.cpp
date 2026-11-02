@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "SpriteColliderComponent.h"
+#include "TransformComponent.h" 
 
 namespace Engine
 {
@@ -27,7 +28,25 @@ namespace Engine
 
 	void SpriteColliderComponent::Update(float deltaTime)
 	{
-		bounds = sprite->getGlobalBounds();
+		auto transform = GetGameObject()->GetComponent<TransformComponent>();
+		auto renderer = GetGameObject()->GetComponent<SpriteRendererComponent>();
+
+		if (transform && renderer && sprite && sprite->getTexture())
+		{
+		
+			sf::Vector2f pos = Convert<sf::Vector2f, Vector2Df>(transform->GetWorldPosition());
+
+		
+			sf::Vector2u textureSize = sprite->getTexture()->getSize();
+
+		
+			Vector2Df scale = renderer->GetScale();
+
+		
+			float width = std::abs(textureSize.x * scale.x);
+			float height = std::abs(textureSize.y * scale.y);
+			bounds = sf::FloatRect(pos.x - width / 2.f, pos.y - height / 2.f, width, height);
+		}
 	}
 	void SpriteColliderComponent::Render()
 	{

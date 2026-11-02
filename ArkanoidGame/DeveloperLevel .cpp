@@ -7,6 +7,10 @@
 #include "HealthComponent.h" 
 #include <cmath>
 #include <cassert>
+#include "TransformComponent.h"
+#include <iostream>
+#include <SFML/Window/Keyboard.hpp> 
+
 
 using namespace Engine;
 
@@ -35,21 +39,47 @@ namespace RogaliqueGame
         walls.push_back(std::make_shared<Wall>(sf::Vector2f(640, 200), sf::Vector2f(300, 40)));
         walls.push_back(std::make_shared<Wall>(sf::Vector2f(640, 520), sf::Vector2f(300, 40)));
 
-        LOG_INFO("--- Level loaded successfully! ---");
+        LOG_INFO(" Level loaded successfully! ");
     }
+
 
     void DeveloperLevel::Update(float timeDelta)
     {
-        if (player)
+        
+        if (::Engine::GameWorld::Instance()->IsPaused())
         {
-            auto playerHealth = player->GetGameObject()->GetComponent<HealthComponent>();
-
-            if (playerHealth && playerHealth->IsDead())
+           
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Enter))
             {
-                LOG_WARN("Player is DEAD! Restarting game...");
+                std::cout << "Restarting game..." << std::endl;
                 Restart();
             }
+            return; 
         }
+
+      
+        if (!player || !enemy) return;
+
+        
+        auto playerHealth = player->GetGameObject()->GetComponent<HealthComponent>();
+        if (playerHealth && playerHealth->IsDead())
+        {
+            LOG_WARN("Player is DEAD! GAME OVER");
+           
+            ::Engine::GameWorld::Instance()->SetPaused(true);
+            return;
+        }
+
+      
+        auto enemyHealth = enemy->GetGameObject()->GetComponent<HealthComponent>();
+        if (enemyHealth && enemyHealth->IsDead())
+        {
+            LOG_WARN("Enemy is DEAD! YOU WIN!");
+            
+            ::Engine::GameWorld::Instance()->SetPaused(true);
+            return;
+        }
+
     }
 
     void DeveloperLevel::Restart()
@@ -61,6 +91,13 @@ namespace RogaliqueGame
 
     void DeveloperLevel::Stop()
     {
-        Engine::GameWorld::Instance()->Clear();
+        player.reset();
+        enemy.reset();
+       
+
+        ::Engine::GameWorld::Instance()->Clear();
+        ::Engine::GameWorld::Instance()->SetPaused(false);
+        walls.clear();
+
     }
 }
