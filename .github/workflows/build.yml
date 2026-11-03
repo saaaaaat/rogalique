@@ -15,18 +15,29 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-
-      - name: Download SFML
+    
+      - name: Download and Setup SFML
         run: |
           Invoke-WebRequest -Uri "https://www.sfml-dev.org/files/SFML-2.5.1-windows-vc15-64-bit.zip" -OutFile "SFML.zip"
           Expand-Archive -Path "SFML.zip" -DestinationPath "."
+          
+          # Создаем папку SFML (если её нет) и переносим туда распакованный файл
+          mkdir SFML
+          Move-Item -Path "SFML-2.5.1" -Destination "SFML\SFML-2.5.1"
+
+    
+      - name: Verify SFML Paths
+        run: |
+          if (Test-Path "SFML\SFML-2.5.1\include") { Write-Host "SFML include path exists!" } else { Write-Host "SFML include path MISSING!"; exit 1 }
+
 
       - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v1
 
       - name: Build solution
         run: |
-          msbuild Game.sln /p:Configuration=Release /p:Platform=x64 /p:SFML_DIR="${{ github.workspace }}\SFML-2.5.1"
+          msbuild Game.sln /p:Configuration=Release /p:Platform=x64
+
 
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
