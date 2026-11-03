@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-     
+      - features/next-task
   workflow_dispatch:
 
 jobs:
@@ -21,4 +21,14 @@ jobs:
     
       - name: Build solution
         run: |
-           msbuild Game.sln /p:Configuration=Release /p:Platform=x64 
+          msbuild Game.sln /p:Configuration=Release /p:Platform=x64
+
+  
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: RogaliqueGame-Windows
+          path: |
+            ArkanoidGame/x64/Release/*.exe
+            ArkanoidGame/x64/Release/*.dll
+            ArkanoidGame/x64/Release/Resources/
