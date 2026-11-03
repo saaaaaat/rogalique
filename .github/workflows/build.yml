@@ -15,23 +15,14 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Шаг 1: 
-      - name: Download and Extract SFML
-        run: |
-          Invoke-WebRequest -Uri "https://www.sfml-dev.org/files/SFML-2.5.1-windows-vc15-64-bit.zip" -OutFile "SFML.zip"
-          Expand-Archive -Path "SFML.zip" -DestinationPath "."
-          # Переименовываем папку, чтобы путь был предсказуемым
-          Rename-Item -Path "SFML-2.5.1" -NewName "SFML"
-
-      # Шаг 2: 
       - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v1
 
+     
       - name: Build solution
         run: |
           msbuild Game.sln /p:Configuration=Release /p:Platform=x64 /p:IncludePath="${{ github.workspace }}\SFML\include;$(IncludePath)"
 
-      # Шаг 3: 
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
         with:
