@@ -4,25 +4,39 @@ on:
   push:
     branches:
       - main
-      - features/next-task 
-  pull_request:
-    branches:
-      - main
-  workflow_dispatch: 
+      - features/next-task
+  workflow_dispatch:
 
 jobs:
   build:
-    runs-on: windows-latest 
+    runs-on: windows-latest
+
     steps:
-      # Step 1: Checkout the repository
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Step 2: Set up MSBuild and Visual Studio
+      # Шаг 1: 
+      - name: Download and Extract SFML
+        run: |
+          Invoke-WebRequest -Uri "https://www.sfml-dev.org/files/SFML-2.5.1-windows-vc15-64-bit.zip" -OutFile "SFML.zip"
+          Expand-Archive -Path "SFML.zip" -DestinationPath "."
+          # Переименовываем папку, чтобы путь был предсказуемым
+          Rename-Item -Path "SFML-2.5.1" -NewName "SFML"
+
+      # Шаг 2: 
       - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v1
 
-      # Step 3: Build the solution
       - name: Build solution
         run: |
-          msbuild Game.sln /p:Configuration=Release /p:Platform=x64
+          msbuild Game.sln /p:Configuration=Release /p:Platform=x64 /p:IncludePath="${{ github.workspace }}\SFML\include;$(IncludePath)"
+
+      # Шаг 3: 
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: RogaliqueGame-Windows
+          path: |
+            ArkanoidGame/x64/Release/*.exe
+            ArkanoidGame/x64/Release/*.dll
+            ArkanoidGame/x64/Release/Resources/
