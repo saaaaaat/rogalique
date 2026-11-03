@@ -18,10 +18,10 @@ jobs:
       - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v1
 
-     
+    
       - name: Build solution
         run: |
-          msbuild Game.sln /p:Configuration=Release /p:Platform=x64 /p:IncludePath="${{ github.workspace }}\SFML\include;$(IncludePath)"
+          msbuild Game.sln /p:Configuration=Release /p:Platform=x64 /p:IncludePath="D:\a\rogalique\rogalique\SFML\include"
 
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
