@@ -21,13 +21,4 @@ jobs:
     
       - name: Build solution
         run: |
-           msbuild Game.sln /p:Configuration=Release /p:Platform=x64 /p:IncludePath="SFML\SFML-2.5.1\include" /p:LibraryPath="SFML\SFML-2.5.1\lib"
-
-      - name: Upload Build Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: RogaliqueGame-Windows
-          path: |
-            ArkanoidGame/x64/Release/*.exe
-            ArkanoidGame/x64/Release/*.dll
-            ArkanoidGame/x64/Release/Resources/
+           msbuild Game.sln /p:Configuration=Release /p:Platform=x64 
