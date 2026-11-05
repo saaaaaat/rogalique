@@ -32,6 +32,9 @@ namespace Engine
 
 		void LoadMusic(const std::string& name, const std::string& sourcePath);
 		sf::Music* GetMusic(const std::string& name);
+
+		void LoadFont(const std::string& name, const std::string& sourcePath);
+		const sf::Font* GetFont(const std::string& name) const;
 		
 
 		void Clear();
@@ -39,6 +42,8 @@ namespace Engine
 	private:
 		std::map<std::string, sf::Texture*> textures;
 		std::map<std::string, std::vector<sf::Texture*>> textureMaps;
+		std::map<std::string, sf::Font*> fonts;
+	
 
 		// хранилище музыки
 		std::map<std::string, sf::Music*> musics;
@@ -51,5 +56,6 @@ namespace Engine
 
 		void DeleteAllTextures();
 		void DeleteAllTextureMaps();
+		void DeleteAllFonts();
 	};
 }

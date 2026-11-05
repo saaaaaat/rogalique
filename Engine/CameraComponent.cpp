@@ -1,56 +1,68 @@
 #include "pch.h"
 #include "CameraComponent.h"
-#include "TransformComponent.h"
+#include "Logger.h"
+#include <cassert>
 
 namespace Engine
 {
-	CameraComponent::CameraComponent(GameObject* gameObject) : Component(gameObject)
-	{
-		view = new sf::View(sf::FloatRect(0, 0, 800, -600));
-		transform = gameObject->GetComponent<TransformComponent>();
-	}
-	CameraComponent::~CameraComponent()
-	{
-		delete view;
-	}
+    CameraComponent::CameraComponent(GameObject* gameObject) : Component(gameObject)
+    {
+        assert(gameObject != nullptr && "CameraComponent requires GameObject");
+        view = new sf::View(sf::FloatRect(0.f, 0.f, 1280.f, -720.f));
+        view->setCenter(640.f, 360.f);
+        LOG_INFO("CameraComponent created (default 1280x720, Y-flipped)");
+    }
 
-	void CameraComponent::Update(float deltaTime)
-	{
-		// фиксируем камеру в центре экрана
-		view->setCenter(640.f, 360.f);
-		view->setRotation(0.f);
+    CameraComponent::~CameraComponent()
+    {
+        delete view;
+        LOG_INFO("CameraComponent destroyed");
+    }
 
-		// область отображения
-		view->setSize(1280.f, -720.f);
+    void CameraComponent::Update(float /*deltaTime*/)
+    {
+        if (!window || !view) return;
 
-		if (window) {
-			window->setView(*view);
-		}
-	}
+        // Применяем статичную камеру. Никаких изменений каждый кадр — камера
+        // фиксирована в (640,360), 1280x720. Если пользователь применил
+        // window.setView() — например, HUD — мы возвращаем нашу.
+        if (window->getView().getCenter() != view->getCenter() ||
+            window->getView().getSize() != view->getSize())
+        {
+            window->setView(*view);
+        }
+    }
 
-	void CameraComponent::Render()
-	{
-		if (window == nullptr)
-		{
-			std::cout << "NULL window render." << std::endl;
-		}
-	}
+    void CameraComponent::Render() {}
 
-	void CameraComponent::SetBaseResolution(int width, int height)
-	{
-		view->reset(sf::FloatRect(0, 0, width, -height));
-	}
-	void CameraComponent::SetWindow(sf::RenderWindow* newWindow)
-	{
-		window = newWindow;
-	}
-	void CameraComponent::ZoomBy(float newZoom)
-	{
-		if (newZoom <= 0)
-		{
-			std::cout << "Not allowed zoom lesser or equal than zero." << std::endl;
-			return;
-		}
-		view->zoom(newZoom);
-	}
+    void CameraComponent::SetBaseResolution(int width, int height)
+    {
+        if (width <= 0 || height <= 0) {
+            LOG_ERROR("CameraComponent::SetBaseResolution: invalid size "
+                + std::to_string(width) + "x" + std::to_string(height));
+            return;
+        }
+        view->setCenter(width * 0.5f, height * 0.5f);
+        view->setSize(static_cast<float>(width), -static_cast<float>(height));
+        LOG_INFO("Camera base resolution set to " + std::to_string(width) + "x" + std::to_string(height));
+        if (window) window->setView(*view);
+    }
+
+    void CameraComponent::SetWindow(sf::RenderWindow* newWindow)
+    {
+        assert(newWindow != nullptr && "CameraComponent::SetWindow(nullptr)");
+        window = newWindow;
+        if (window && view) window->setView(*view);
+        LOG_INFO("CameraComponent window attached");
+    }
+
+    void CameraComponent::ZoomBy(float newZoom)
+    {
+        if (newZoom <= 0.f) {
+            LOG_WARN("CameraComponent::ZoomBy: non-positive zoom ignored");
+            return;
+        }
+        view->zoom(newZoom);
+        LOG_INFO("Camera zoomed by " + std::to_string(newZoom));
+    }
 }

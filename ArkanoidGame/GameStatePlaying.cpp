@@ -1,24 +1,28 @@
 #include "GameStatePlaying.h"
 #include "Application.h"
 #include "Game.h"
-#include "DeveloperLevel.h"
 #include "RenderSystem.h"
+#include "Logger.h"
+#include "GameWorld.h" 
+#include <iostream>
 
 namespace RogaliqueGame
 {
 	void GameStatePlayingData::Init()
 	{
-		// создаем и запускаем уровень
+		LOG_INFO("--- GameStatePlaying Init ---");
+
+		// очистка от старыз обьектов
+		Engine::GameWorld::Instance()->Clear();
+
 		level = std::make_shared<DeveloperLevel>();
 		level->Start();
 	}
 
 	void GameStatePlayingData::HandleWindowEvent(const sf::Event& event)
 	{
-		if (event.type == sf::Event::KeyPressed &&
-			event.key.code == sf::Keyboard::Escape)
+		if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::Escape)
 		{
-		
 			Application::Instance().GetGame().ExitGame();
 		}
 	}
@@ -27,18 +31,17 @@ namespace RogaliqueGame
 	{
 		
 		if (level)
+		{
 			level->Update(timeDelta);
+		}
 
-		
+		// обновляю движок
 		Engine::GameWorld::Instance()->Update(timeDelta);
 	}
 
 	void GameStatePlayingData::Draw(sf::RenderWindow& window)
 	{
-		
 		window.clear(sf::Color(30, 30, 30));
-
-		// рисуем все объекты
 		Engine::GameWorld::Instance()->Render();
 	}
 }

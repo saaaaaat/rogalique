@@ -24,7 +24,7 @@ namespace RogaliqueGame
 		// крнструктор с иницилизацией
 		GameState(GameStateType type, bool isExclusivelyVisible);
 		GameState(const GameState& state) = delete;
-		GameState(GameState&& state) { *this = std::move(state); }
+		GameState(GameState&& state) noexcept { *this = std::move(state); }
 
 		~GameState();
 

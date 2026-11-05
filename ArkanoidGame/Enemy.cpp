@@ -5,25 +5,38 @@
 #include "RigidbodyComponent.h"
 #include "SpriteColliderComponent.h"
 #include "ChaseComponent.h"
+#include "AttackComponent.h"
+#include "Logger.h"
+#include "HealthComponent.h"
+#include <cassert>
 
-namespace RogaliqueGame {
-    Enemy::Enemy() {
+namespace RogaliqueGame
+{
+    Enemy::Enemy()
+    {
+        LOG_INFO("Creating Enemy...");
         gameObject = Engine::GameWorld::Instance()->CreateGameObject("Enemy");
-        
-        startPosition = sf::Vector2f(1100.f, 100.f); 
+        assert(gameObject != nullptr && "Failed to create Enemy GameObject");
+        if (!gameObject) { LOG_ERROR("Enemy: GameObject creation failed"); return; }
 
-        auto renderer = gameObject->AddComponent<Engine::SpriteRendererComponent>();
+        startPosition = sf::Vector2f(1100.f, 100.f);
+
+        auto* renderer = gameObject->AddComponent<Engine::SpriteRendererComponent>();
         renderer->SetTexture(*Engine::ResourceSystem::Instance()->GetTextureShared("ball"));
         renderer->SetPixelSize(32, 32);
-        renderer->SetColor(sf::Color::Red); 
-        
-        auto transform = gameObject->GetComponent<Engine::TransformComponent>();
+        renderer->SetColor(sf::Color::Red);
+
+        auto* transform = gameObject->GetComponent<Engine::TransformComponent>();
         transform->SetWorldPosition(startPosition.x, startPosition.y);
 
-        auto body = gameObject->AddComponent<Engine::RigidbodyComponent>();
-        body->SetLinearDamping(10.f); 
-        
+        auto* body = gameObject->AddComponent<Engine::RigidbodyComponent>();
+        body->SetLinearDamping(10.f);
+
         gameObject->AddComponent<Engine::SpriteColliderComponent>();
-        gameObject->AddComponent<Engine::ChaseComponent>();
+        gameObject->AddComponent<Engine::ChaseComponent>(/*stopDistance*/ 55.f, /*speed*/ 120.f);
+        gameObject->AddComponent<Engine::HealthComponent>(150, 0);
+        gameObject->AddComponent<Engine::AttackComponent>(/*damage*/ 10, /*range*/ 60.f, /*cd*/ 1.5f);
+
+        LOG_INFO("Enemy created: HP=150 ARMOR=0 DMG=10 (attack enabled)");
     }
 }

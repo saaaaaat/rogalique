@@ -25,8 +25,8 @@ namespace  Engine
 
 		void SetBaseResolution(int width, int height);
 	private:
-		TransformComponent* transform;
-		sf::RenderWindow* window;
-		sf::View* view;
+		TransformComponent* transform = nullptr; 
+		sf::RenderWindow* window = nullptr;    
+		sf::View* view = nullptr;              
 	};
 }

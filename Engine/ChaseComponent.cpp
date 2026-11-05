@@ -3,40 +3,47 @@
 #include "GameWorld.h"
 #include "TransformComponent.h"
 #include "RigidbodyComponent.h"
+#include "Logger.h"
 #include <cmath>
+#include <cassert>
 
-namespace Engine {
-    void ChaseComponent::Update(float deltaTime) {
-        auto gameObjects = GameWorld::Instance()->GetGameObjects();
+namespace Engine
+{
+    void ChaseComponent::Update(float deltaTime)
+    {
         GameObject* target = nullptr;
-        for (auto obj : gameObjects) {
+        for (auto* obj : GameWorld::Instance()->GetGameObjects())
+        {
+            if (obj == GetGameObject()) continue;
             if (obj->GetName() == "Player") { target = obj; break; }
         }
         if (!target) return;
 
-        auto targetTransform = target->GetComponent<TransformComponent>();
-        auto myTransform = GetGameObject()->GetComponent<TransformComponent>();
-        auto myRigidbody = GetGameObject()->GetComponent<RigidbodyComponent>();
+        auto* targetT = target->GetComponent<TransformComponent>();
+        auto* myT = GetGameObject()->GetComponent<TransformComponent>();
+        auto* myRb = GetGameObject()->GetComponent<RigidbodyComponent>();
 
-        if (targetTransform && myTransform && myRigidbody) {
-            Vector2Df direction = targetTransform->GetWorldPosition() - myTransform->GetWorldPosition();
-            float length = direction.GetLength();
+        assert(myT != nullptr && "ChaseComponent: owner missing TransformComponent");
+        assert(myRb != nullptr && "ChaseComponent: owner missing RigidbodyComponent");
+        if (!targetT || !myT || !myRb) return;
 
-            if (length > 0) {
-                direction.x /= length;
-                direction.y /= length;
+        Vector2Df direction = targetT->GetWorldPosition() - myT->GetWorldPosition();
+        float length = direction.GetLength();
 
-                //скольжение по стене еси уперся
-                auto currentVelocity = myRigidbody->GetLinearVelocity();
-                if (currentVelocity.GetLength() < 10.0f && length > 50.0f) {
-                    //смещение на 45
-                    float tempX = direction.x;
-                    direction.x = direction.x * 0.7f - direction.y * 0.7f;
-                    direction.y = tempX * 0.7f + direction.y * 0.7f;
-                }
-
-                myRigidbody->SetLinearVelocity(direction * 120.0f);
+        if (length <= stopDistance) {
+            if (myRb->GetLinearVelocity().GetLength() > 0.1f) {
+                LOG_INFO(GetGameObject()->GetName() + " reached stop distance ("
+                    + std::to_string(length) + " <= " + std::to_string(stopDistance)
+                    + "), halting");
+                myRb->SetLinearVelocity({ 0.f, 0.f });
             }
+            return;
+        }
+
+        if (length > 0.f) {
+            direction.x /= length;
+            direction.y /= length;
+            myRb->SetLinearVelocity(direction * speed);
         }
     }
 }

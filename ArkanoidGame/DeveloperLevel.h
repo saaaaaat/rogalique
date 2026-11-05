@@ -9,10 +9,14 @@
 #include "Player.h"
 #include "Enemy.h"
 #include "Wall.h"
+#include "Floor.h"
+
+
 
 namespace RogaliqueGame
 {
    
+
     class DeveloperLevel : public Engine::Scene
     {
     public:
@@ -25,5 +29,6 @@ namespace RogaliqueGame
         std::shared_ptr<Player> player;
         std::shared_ptr<Enemy> enemy;
         std::vector<std::shared_ptr<Wall>> walls;
+        bool enterWasPressed = false;
     };
 }

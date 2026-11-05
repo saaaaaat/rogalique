@@ -1,12 +1,16 @@
+#include "pch.h"
 #include "DeveloperLevel.h"
 #include "Application.h" 
 #include "Game.h"    
 #include "GameWorld.h" 
-
-#include "TransformComponent.h"
+#include "Logger.h"
+#include "HealthComponent.h" 
 #include <cmath>
+#include <cassert>
+#include "TransformComponent.h"
 #include <iostream>
 #include <SFML/Window/Keyboard.hpp> 
+
 
 using namespace Engine;
 
@@ -14,6 +18,10 @@ namespace RogaliqueGame
 {
     void DeveloperLevel::Start()
     {
+        LOG_INFO("Starting level DeveloperLevel");
+
+        auto floor = std::make_shared<Floor>(sf::Vector2f(640.f, 360.f), sf::Vector2f(1280.f, 720.f));
+
         player = std::make_shared<Player>();
         enemy = std::make_shared<Enemy>();
 
@@ -30,52 +38,66 @@ namespace RogaliqueGame
         walls.push_back(std::make_shared<Wall>(sf::Vector2f(980, 360), sf::Vector2f(40, 400)));
         walls.push_back(std::make_shared<Wall>(sf::Vector2f(640, 200), sf::Vector2f(300, 40)));
         walls.push_back(std::make_shared<Wall>(sf::Vector2f(640, 520), sf::Vector2f(300, 40)));
+
+        LOG_INFO(" Level loaded successfully! ");
     }
 
+
+    
     void DeveloperLevel::Update(float timeDelta)
     {
-       
         if (::Engine::GameWorld::Instance()->IsPaused())
         {
-          
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Enter))
+            bool enterNow = sf::Keyboard::isKeyPressed(sf::Keyboard::Enter);
+            if (enterNow && !enterWasPressed)
             {
-                std::cout << "Restarting game..." << std::endl;
-                ::Engine::GameWorld::Instance()->SetPaused(false);
+                LOG_INFO("Restart triggered by Enter");
                 Restart();
             }
-            return; 
+            enterWasPressed = enterNow;
+            return;
+        }
+        enterWasPressed = false;
+
+        if (!player || !enemy) {
+            LOG_WARN("DeveloperLevel::Update: player or enemy not spawned");
+            return;
         }
 
-        if (!player || !enemy) return;
-
-        auto pTransform = player->GetGameObject()->GetComponent<TransformComponent>();
-        auto eTransform = enemy->GetGameObject()->GetComponent<TransformComponent>();
-
-        if (pTransform && eTransform)
+        auto* playerHealth = player->GetGameObject()->GetComponent<Engine::HealthComponent>();
+        if (playerHealth && playerHealth->IsDead())
         {
-            Vector2Df pPos = pTransform->GetWorldPosition();
-            Vector2Df ePos = eTransform->GetWorldPosition();
+            LOG_WARN("Player is DEAD! GAME OVER");
+            ::Engine::GameWorld::Instance()->SetPaused(true);
+            return;
+        }
 
-            float dist = std::sqrt(std::pow(pPos.x - ePos.x, 2) + std::pow(pPos.y - ePos.y, 2));
-
-            if (dist < 32.f)
-            {
-                std::cout << " GAME OVER " << std::endl;
-                ::Engine::GameWorld::Instance()->SetPaused(true);
-            }
+        auto* enemyHealth = enemy->GetGameObject()->GetComponent<Engine::HealthComponent>();
+        if (enemyHealth && enemyHealth->IsDead())
+        {
+            LOG_WARN("Enemy is DEAD! YOU WIN!");
+            ::Engine::GameWorld::Instance()->SetPaused(true);
+            return;
         }
     }
 
     void DeveloperLevel::Restart()
     {
+        LOG_INFO("Restarting level...");
         Stop();
         Start();
+        LOG_INFO("Level restarted");
     }
 
     void DeveloperLevel::Stop()
     {
+        LOG_INFO("Stopping level, clearing GameWorld...");
+        player.reset();
+        enemy.reset();
         ::Engine::GameWorld::Instance()->Clear();
         walls.clear();
+        ::Engine::GameWorld::Instance()->SetPaused(false);
+        enterWasPressed = false;
+        LOG_INFO("Level stopped");
     }
 }

@@ -1,6 +1,8 @@
 #include "pch.h"
 #include "ResourceSystem.h"
+#include "Logger.h"
 #include <iostream>
+#include <stdexcept>
 
 namespace Engine
 {
@@ -17,6 +19,11 @@ namespace Engine
 		if (newTexture->loadFromFile(sourcePath)) {
 			newTexture->setSmooth(isSmooth);
 			textures.emplace(name, newTexture);
+			LOG_INFO("Успешно загружена текстура: " + name);
+		}
+		else {
+			LOG_ERROR("НЕ УДАЛОСЬ загрузить текстуру: " + sourcePath); 
+			throw std::runtime_error("Критическая ошибка: Не найдена текстура " + sourcePath);
 		}
 	}
 	const sf::Texture* ResourceSystem::GetTextureShared(const std::string& name) const { return textures.find(name)->second; }
@@ -39,10 +46,47 @@ namespace Engine
 		sf::Music* newMusic = new sf::Music();
 		if (newMusic->openFromFile(sourcePath)) {
 			musics.emplace(name, newMusic);
+			LOG_INFO("Успешно загружена музыка: " + name); 
 		}
 		else {
-			std::cout << "Ошибка: не удалось загрузить музыку: " << sourcePath << std::endl;
+			LOG_ERROR("НЕ УДАЛОСЬ загрузить музыку: " + sourcePath); 
 		}
+	}
+
+	
+	void ResourceSystem::LoadFont(const std::string& name, const std::string& sourcePath)
+	{
+		if (fonts.find(name) != fonts.end()) {
+			LOG_WARN("Font '" + name + "' already loaded — skipping");
+			return;
+		}
+		auto* newFont = new sf::Font();
+		if (newFont->loadFromFile(sourcePath)) {
+			fonts.emplace(name, newFont);
+			LOG_INFO("Font loaded: '" + name + "' from " + sourcePath);
+		}
+		else {
+			LOG_ERROR("Failed to load font: " + sourcePath);
+			delete newFont;
+			throw std::runtime_error("Font load failed: " + sourcePath);
+		}
+	}
+
+	const sf::Font* ResourceSystem::GetFont(const std::string& name) const
+	{
+		auto it = fonts.find(name);
+		if (it == fonts.end()) {
+			LOG_WARN("GetFont: font '" + name + "' not found");
+			return nullptr;
+		}
+		return it->second;
+	}
+
+	void ResourceSystem::DeleteAllFonts()
+	{
+		for (auto& [n, f] : fonts) delete f;
+		fonts.clear();
+		LOG_INFO("All fonts deleted");
 	}
 
 	sf::Music* ResourceSystem::GetMusic(const std::string& name)
