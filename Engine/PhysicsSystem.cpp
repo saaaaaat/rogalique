@@ -23,7 +23,7 @@ namespace Engine
 		{
 			auto body = colliders[i]->GetGameObject()->GetComponent<RigidbodyComponent>();
 
-			// Добавил проверку body, чтобы не крашнулось, если коллайдер есть, а Rigidbody нет
+		
 			if (body && body->GetKinematic()) continue;
 
 			for (int j = 0; j < colliders.size(); j++)
@@ -54,7 +54,7 @@ namespace Engine
 							t2->MoveBy({ -d.x * push, -d.y * push });
 							LOG_WARN("Player<->Enemy overlap - pushed apart by " + std::to_string(push));
 						}
-						continue; // Пропускаем остальную физику для этой пары
+						continue; 
 					}
 
 					if (colliders[i]->isTrigger != colliders[j]->isTrigger)

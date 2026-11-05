@@ -33,9 +33,9 @@ namespace RogaliqueGame
         body->SetLinearDamping(10.f);
 
         gameObject->AddComponent<Engine::SpriteColliderComponent>();
-        gameObject->AddComponent<Engine::ChaseComponent>(/*stopDistance*/ 55.f, /*speed*/ 120.f);
+        gameObject->AddComponent<Engine::ChaseComponent>( 55.f,  120.f);
         gameObject->AddComponent<Engine::HealthComponent>(150, 0);
-        gameObject->AddComponent<Engine::AttackComponent>(/*damage*/ 10, /*range*/ 60.f, /*cd*/ 1.5f);
+        gameObject->AddComponent<Engine::AttackComponent>(10, 60.f,  1.5f);
 
         LOG_INFO("Enemy created: HP=150 ARMOR=0 DMG=10 (attack enabled)");
     }

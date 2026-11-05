@@ -27,7 +27,7 @@ namespace Engine
         textObject.setFillColor(color);
         textObject.setOutlineColor(sf::Color::Black);
         textObject.setOutlineThickness(2.f);
-        textObject.setScale(1.f, -1.f); // компенсируем Y-flip камеры
+        textObject.setScale(1.f, -1.f);
 
         auto b = textObject.getLocalBounds();
         textObject.setOrigin(b.left + b.width * 0.5f, b.top + b.height * 0.5f);

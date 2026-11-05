@@ -48,7 +48,7 @@ int main()
     auto developerLevel = std::make_shared<DeveloperLevel>();
     developerLevel->Start();
 
-    // ---- HUD text (screen-space) ----
+
     auto* hudFont = ::Engine::ResourceSystem::Instance()->GetFont("default");
     sf::Text hudText;
     if (hudFont) hudText.setFont(*hudFont);
@@ -58,7 +58,7 @@ int main()
     hudText.setOutlineThickness(2.f);
     hudText.setPosition(20.f, 20.f);
 
-    // ---- GAME OVER overlay (screen-space) ----
+   
     sf::Text gameOverText;
     if (hudFont) gameOverText.setFont(*hudFont);
     gameOverText.setString("GAME OVER\nPress Enter to restart");
@@ -68,13 +68,13 @@ int main()
     gameOverText.setOrigin(b.left + b.width * 0.5f, b.top + b.height * 0.5f);
     gameOverText.setPosition(W * 0.5f, H * 0.5f);
 
-    // Player finder (for HUD) — resolved once at first Update
+
     Engine::GameObject* playerGO = nullptr;
 
     ::Engine::Engine::Instance()->SetUpdateFunction([developerLevel, &playerGO](float dt) {
         developerLevel->Update(dt);
 
-        // Всегда актуализируем указатель на игрока (это безопасно и решает проблему рестарта)
+ 
         playerGO = nullptr;
         for (auto* o : ::Engine::GameWorld::Instance()->GetGameObjects()) {
             if (o->GetName() == "Player") {
@@ -87,10 +87,10 @@ int main()
     ::Engine::Engine::Instance()->SetRenderFunction(
         [&hudText, &gameOverText, &playerGO, W, H](sf::RenderWindow& window)
         {
-            // Save the world-space camera
+          
             auto worldView = window.getView();
 
-            // ---- HUD in screen space ----
+   
             window.setView(sf::View(sf::FloatRect(0.f, 0.f, (float)W, (float)H)));
             if (playerGO) {
                 if (auto* hp = playerGO->GetComponent<Engine::HealthComponent>()) {
@@ -103,7 +103,6 @@ int main()
                 }
             }
 
-            // ---- GAME OVER overlay ----
             if (::Engine::GameWorld::Instance()->IsPaused()) {
                 sf::RectangleShape overlay(sf::Vector2f((float)W, (float)H));
                 overlay.setFillColor(sf::Color(0, 0, 0, 200));
@@ -111,7 +110,7 @@ int main()
                 window.draw(gameOverText);
             }
 
-            // Restore world camera
+          
             window.setView(worldView);
         });
 

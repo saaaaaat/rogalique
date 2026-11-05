@@ -25,7 +25,7 @@ namespace Engine
 
     private:
         sf::Text textObject;
-        Vector2Df velocity = { 0.f, 40.f }; // вверх в world space (Y+ вверх)
+        Vector2Df velocity = { 0.f, 40.f }; 
         float lifetime;
         float elapsed = 0.f;
     };

@@ -10,7 +10,7 @@ namespace Engine
         assert(gameObject != nullptr && "CameraComponent requires GameObject");
         view = new sf::View(sf::FloatRect(0.f, 0.f, 1280.f, -720.f));
         view->setCenter(640.f, 360.f);
-        LOG_INFO("CameraComponent created (default 1280x720, Y-flipped)");
+        LOG_INFO("CameraComponent created (default 1280x720,)");
     }
 
     CameraComponent::~CameraComponent()
@@ -19,13 +19,11 @@ namespace Engine
         LOG_INFO("CameraComponent destroyed");
     }
 
-    void CameraComponent::Update(float /*deltaTime*/)
+    void CameraComponent::Update(float )
     {
         if (!window || !view) return;
 
-        // Применяем статичную камеру. Никаких изменений каждый кадр — камера
-        // фиксирована в (640,360), 1280x720. Если пользователь применил
-        // window.setView() — например, HUD — мы возвращаем нашу.
+
         if (window->getView().getCenter() != view->getCenter() ||
             window->getView().getSize() != view->getSize())
         {

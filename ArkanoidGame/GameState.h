@@ -21,7 +21,7 @@ namespace RogaliqueGame
 	{
 	public:
 		GameState() = default;
-		// крнструктор с иницилизацией
+		
 		GameState(GameStateType type, bool isExclusivelyVisible);
 		GameState(const GameState& state) = delete;
 		GameState(GameState&& state) noexcept { *this = std::move(state); }
@@ -29,7 +29,7 @@ namespace RogaliqueGame
 		~GameState();
 
 		GameState& operator=(const GameState& state) = delete;
-		// опретар перемещения с иницилизацией полей
+	
 		GameState& operator=(GameState&& state) noexcept
 		{
 			type = state.type;
@@ -54,7 +54,7 @@ namespace RogaliqueGame
 	private:
 		
 
-		//иниц. полей при обьявление
+		
 		GameStateType type = GameStateType::None;
 		std::shared_ptr<GameStateData> data = nullptr;
 		bool isExclusivelyVisible = false;

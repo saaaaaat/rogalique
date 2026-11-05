@@ -19,7 +19,7 @@ namespace Engine
         void Update(float deltaTime) override {}
         void Render() override {}
 
-        // Возвращает урон, дошедший до HP (0, если весь поглощён бронёй)
+    
         int TakeDamage(int damage);
         void Heal(int amount);
         bool IsDead() const { return hp <= 0; }

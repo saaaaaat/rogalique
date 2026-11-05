@@ -35,8 +35,7 @@ namespace RogaliqueGame
         gameObject->AddComponent<Engine::InputComponent>();
         gameObject->AddComponent<Engine::HealthComponent>(100, 30);
 
-        // Атаку игрока УБРАЛИ — атакует только враг.
-        // gameObject->AddComponent<Engine::AttackComponent>();
+      
 
         LOG_INFO("Player created: HP=100 ARMOR=30 (no AttackComponent by design)");
     }

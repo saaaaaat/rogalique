@@ -45,7 +45,6 @@ namespace Engine
 		std::map<std::string, sf::Font*> fonts;
 	
 
-		// хранилище музыки
 		std::map<std::string, sf::Music*> musics;
 
 		ResourceSystem() {}
