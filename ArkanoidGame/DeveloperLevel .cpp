@@ -3,7 +3,15 @@
 #include "Application.h" 
 #include "Game.h"    
 #include "GameWorld.h" 
+#include "Logger.h"
+#include "HealthComponent.h" 
+#include "MazeGenerator.h"
 #include <cmath>
+#include <cassert>
+#include "TransformComponent.h"
+#include <iostream>
+#include <SFML/Window/Keyboard.hpp> 
+
 
 using namespace Engine;
 
@@ -13,56 +21,69 @@ namespace RogaliqueGame
     {
         LOG_INFO("Starting level DeveloperLevel");
 
-        auto floor = std::make_shared<Floor>(sf::Vector2f(640.f, 360.f), sf::Vector2f(1280.f, 720.f));
+        int width = 30;
+        int height = 20;
+        float cellSize = 128.f; 
 
+        MazeGenerator mazeGenerator(width, height, this);
+        mazeGenerator.Generate();
+
+    
         player = std::make_shared<Player>();
+        auto pTransform = player->GetGameObject()->GetComponent<Engine::TransformComponent>();
+        if (pTransform) {
+          
+            pTransform->SetWorldPosition(cellSize, cellSize);
+        }
+
+       
         enemy = std::make_shared<Enemy>();
-
-        float w = 1280.f;
-        float h = 720.f;
-        float t = 40.f;
-
-        walls.push_back(std::make_shared<Wall>(sf::Vector2f(w / 2, t / 2), sf::Vector2f(w, t)));
-        walls.push_back(std::make_shared<Wall>(sf::Vector2f(w / 2, h - t / 2), sf::Vector2f(w, t)));
-        walls.push_back(std::make_shared<Wall>(sf::Vector2f(t / 2, h / 2), sf::Vector2f(t, h)));
-        walls.push_back(std::make_shared<Wall>(sf::Vector2f(w - t / 2, h / 2), sf::Vector2f(t, h)));
-
-        walls.push_back(std::make_shared<Wall>(sf::Vector2f(300, 360), sf::Vector2f(40, 400)));
-        walls.push_back(std::make_shared<Wall>(sf::Vector2f(980, 360), sf::Vector2f(40, 400)));
-        walls.push_back(std::make_shared<Wall>(sf::Vector2f(640, 200), sf::Vector2f(300, 40)));
-        walls.push_back(std::make_shared<Wall>(sf::Vector2f(640, 520), sf::Vector2f(300, 40)));
+        auto eTransform = enemy->GetGameObject()->GetComponent<Engine::TransformComponent>();
+        if (eTransform) {
+            eTransform->SetWorldPosition(cellSize * 5, cellSize * 5);
+        }
 
         LOG_INFO("--- Level loaded successfully! ---");
     }
 
+
     void DeveloperLevel::Update(float timeDelta)
     {
-        auto playerTransform = player->GetGameObject()->GetComponent<TransformComponent>();
-        auto enemyTransform = enemy->GetGameObject()->GetComponent<TransformComponent>();
 
-        if (playerTransform && enemyTransform)
+        if (::Engine::GameWorld::Instance()->IsPaused())
         {
-            Vector2Df pPos = playerTransform->GetWorldPosition();
-            Vector2Df ePos = enemyTransform->GetWorldPosition();
 
-      
-            float dist = std::sqrt(std::pow(pPos.x - ePos.x, 2) + std::pow(pPos.y - ePos.y, 2));
-
-         //не работает
-            if (dist < 32.f)
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Enter))
             {
-                
-                Application::Instance().GetGame().LooseGame();
-
-             
-                playerTransform->SetWorldPosition(player->startPosition.x, player->startPosition.y);
-                enemyTransform->SetWorldPosition(enemy->startPosition.x, enemy->startPosition.y);
-
-             
-                player->GetGameObject()->GetComponent<RigidbodyComponent>()->SetLinearVelocity({ 0, 0 });
-                enemy->GetGameObject()->GetComponent<RigidbodyComponent>()->SetLinearVelocity({ 0, 0 });
+                std::cout << "Restarting game..." << std::endl;
+                Restart();
             }
+            return;
         }
+
+
+        if (!player || !enemy) return;
+
+
+        auto playerHealth = player->GetGameObject()->GetComponent<HealthComponent>();
+        if (playerHealth && playerHealth->IsDead())
+        {
+            LOG_WARN("Player is DEAD! GAME OVER");
+
+            ::Engine::GameWorld::Instance()->SetPaused(true);
+            return;
+        }
+
+
+        auto enemyHealth = enemy->GetGameObject()->GetComponent<HealthComponent>();
+        if (enemyHealth && enemyHealth->IsDead())
+        {
+            LOG_WARN("Enemy is DEAD! YOU WIN!");
+
+            ::Engine::GameWorld::Instance()->SetPaused(true);
+            return;
+        }
+
     }
 
     void DeveloperLevel::Restart()
@@ -74,6 +95,15 @@ namespace RogaliqueGame
 
     void DeveloperLevel::Stop()
     {
-       ::Engine::GameWorld::Instance()->Clear();
+
+        walls.clear();
+        floors.clear();
+
+
+        player.reset();
+        enemy.reset();
+
+        ::Engine::GameWorld::Instance()->Clear();
+        ::Engine::GameWorld::Instance()->SetPaused(false);
     }
 }

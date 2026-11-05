@@ -25,7 +25,7 @@ namespace RogaliqueGame
 
 		auto playerCamera = gameObject->AddComponent<Engine::CameraComponent>();
 		playerCamera->SetWindow(&Engine::RenderSystem::Instance()->GetMainWindow());
-		playerCamera->SetBaseResolution(1280, 720);
+		playerCamera->SetBaseResolution(1280, 1280);
 
 		auto transform = gameObject->GetComponent<Engine::TransformComponent>();
 		transform->SetWorldPosition(startPosition.x, startPosition.y);

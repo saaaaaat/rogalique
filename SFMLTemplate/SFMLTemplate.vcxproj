@@ -158,9 +158,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="GameMain.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Engine\Engine.vcxproj">
       <Project>{b5c6cab6-9b06-4b53-b006-f3b726c6eea4}</Project>
     </ProjectReference>

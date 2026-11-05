@@ -16,16 +16,30 @@ namespace Engine
 
 	void CameraComponent::Update(float deltaTime)
 	{
-		// фиксируем камеру в центре экрана
-		view->setCenter(640.f, 360.f);
-		view->setRotation(0.f);
+		if (!window || !transform) return;
 
-		// область отображения
+		Vector2Df playerPos = transform->GetWorldPosition();
+		sf::Vector2f playerPosSf = { playerPos.x, playerPos.y };
+
+		sf::Vector2f windowSize = (sf::Vector2f)window->getSize();
+
+	
+		sf::Vector2f cameraCenter = playerPosSf;
+
+		float mazeWidth = 30 * 128.f;
+		float mazeHeight = 20 * 128.f;
+
+		if (cameraCenter.x < windowSize.x / 2) cameraCenter.x = windowSize.x / 2;
+		if (cameraCenter.y < windowSize.y / 2) cameraCenter.y = windowSize.y / 2;
+
+		if (cameraCenter.x > mazeWidth - windowSize.x / 2) cameraCenter.x = mazeWidth - windowSize.x / 2;
+		if (cameraCenter.y > mazeHeight - windowSize.y / 2) cameraCenter.y = mazeHeight - windowSize.y / 2;
+
+		view->setCenter(cameraCenter);
+		view->setRotation(0.f);
 		view->setSize(1280.f, -720.f);
 
-		if (window) {
-			window->setView(*view);
-		}
+		window->setView(*view);
 	}
 
 	void CameraComponent::Render()

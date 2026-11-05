@@ -1,5 +1,5 @@
 #pragma once
-
+#include "pch.h"  
 #include <iostream>
 #include <vector>
 #include <memory>
@@ -10,6 +10,7 @@
 #include "Enemy.h"
 #include "Wall.h"
 #include "Floor.h"
+
 
 
 
@@ -25,9 +26,12 @@ namespace RogaliqueGame
         void Stop() override;
         void Update(float timeDelta);
 
+        friend class MazeGenerator;
+
     private:
         std::shared_ptr<Player> player;
         std::shared_ptr<Enemy> enemy;
         std::vector<std::shared_ptr<Wall>> walls;
+        std::vector<std::unique_ptr<Floor>> floors;
     };
 }

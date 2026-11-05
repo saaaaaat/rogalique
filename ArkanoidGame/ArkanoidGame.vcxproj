@@ -166,6 +166,7 @@
     <ClCompile Include="Floor.cpp" />
     <ClCompile Include="GameState.cpp" />
     <ClCompile Include="GameStateData.cpp" />
+    <ClCompile Include="MazeGenerator.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="Game.cpp" />
@@ -186,6 +187,7 @@
     <ClInclude Include="GameStateData.h" />
     <ClInclude Include="IDelayedAction.h" />
     <ClInclude Include="IObserver.h" />
+    <ClInclude Include="MazeGenerator.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="randomizer.h" />
     <ClInclude Include="Sprite.h" />
