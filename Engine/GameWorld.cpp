@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "GameWorld.h"
+#include <algorithm>
 
 namespace Engine
 {
@@ -34,9 +35,16 @@ namespace Engine
 	}
 	void GameWorld::LateUpdate()
 	{
-		for (int i = markedToDestroyGameObjects.size() - 1; i >= 0; i--)
+		if (markedToDestroyGameObjects.empty()) return;
+
+		std::vector<GameObject*> toDestroy = markedToDestroyGameObjects;
+		markedToDestroyGameObjects.clear();
+
+		for (auto* obj : toDestroy)
 		{
-			DestroyGameObjectImmediate(markedToDestroyGameObjects[i]);
+			auto it = std::find(gameObjects.begin(), gameObjects.end(), obj);
+			if (it != gameObjects.end())
+				DestroyGameObjectImmediate(obj);
 		}
 	}
 
@@ -58,19 +66,22 @@ namespace Engine
 	}
 	void GameWorld::Clear()
 	{
-		for (int i = gameObjects.size() - 1; i >= 0; i--)
+		std::vector<GameObject*> roots;
+		for (auto* obj : gameObjects)
 		{
-			if (gameObjects[i] == nullptr)
-			{
-				continue;
-			}
-
-			if (gameObjects[i]->GetComponent<TransformComponent>()->GetParent() == nullptr)
-			{
-				DestroyGameObjectImmediate(gameObjects[i]);
-			}
+			if (!obj) continue;
+			auto* t = obj->GetComponent<TransformComponent>();
+			if (t && t->GetParent() == nullptr)
+				roots.push_back(obj);
 		}
-
+		for (auto* root : roots)
+		{
+			auto it = std::find(gameObjects.begin(), gameObjects.end(), root);
+			if (it != gameObjects.end())
+				DestroyGameObjectImmediate(root);
+		}
+		gameObjects.clear();
+		markedToDestroyGameObjects.clear();
 		fixedCounter = 0.f;
 	}
 

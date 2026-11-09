@@ -10,7 +10,7 @@ namespace Engine
         assert(gameObject != nullptr && "CameraComponent requires GameObject");
         view = new sf::View(sf::FloatRect(0.f, 0.f, 1280.f, -720.f));
         view->setCenter(640.f, 360.f);
-        LOG_INFO("CameraComponent created (default 1280x720,)");
+        LOG_INFO("CameraComponent created default 1280x720");
     }
 
     CameraComponent::~CameraComponent()
@@ -62,5 +62,11 @@ namespace Engine
         }
         view->zoom(newZoom);
         LOG_INFO("Camera zoomed by " + std::to_string(newZoom));
+    }
+    void CameraComponent::SetCenter(float x, float y)
+    {
+        if (!view) return;
+        view->setCenter(x, y);
+        LOG_INFO("Camera center -> (" + std::to_string((int)x) + "," + std::to_string((int)y) + ")");
     }
 }

@@ -1,15 +1,17 @@
 ﻿#include <SFML/Graphics.hpp>
-#include "Player.h"
-#include "Engine.h"
-#include "ResourceSystem.h"
-#include "DeveloperLevel.h"
-#include "Logger.h"
 #include <windows.h>
+#include "Engine.h"
+#include "RenderSystem.h"
+#include "ResourceSystem.h"
 #include "GameWorld.h"
 #include "HealthComponent.h"
-#include "RenderSystem.h"
+#include "Logger.h"
+#include "GameOrchestrator.h"
+#include "PlayerControllerComponent.h"
+#include <string>
 
 using namespace RogaliqueGame;
+using namespace Engine;
 
 namespace {
     void setupLogger() {
@@ -25,92 +27,114 @@ int main()
 {
     SetConsoleOutputCP(CP_UTF8);
     setupLogger();
-    LOG_INFO("Program started");
+    LOG_INFO("Roguelike started");
 
-    const unsigned int W = 1280, H = 720;
+    const unsigned int W = 1280;
+    const unsigned int H = 720;
 
-    ::Engine::RenderSystem::Instance()->SetMainWindow(new sf::RenderWindow(sf::VideoMode(W, H), "XYZRoguelike"));
-    LOG_INFO("Window created: 1280x720");
+    RenderSystem::Instance()->SetMainWindow(new sf::RenderWindow(sf::VideoMode(W, H), "Roguelike"));
 
-    ::Engine::ResourceSystem::Instance()->LoadTexture("ball", "Resources/Textures/ball.png");
-    ::Engine::ResourceSystem::Instance()->LoadTexture("platform", "Resources/Textures/platform.png");
-    ::Engine::ResourceSystem::Instance()->LoadMusic("bgm", "Resources/Sounds/AppleEat.wav");
-    ::Engine::ResourceSystem::Instance()->LoadFont("default", "Resources/Fonts/Roboto-Regular.ttf");
+    ResourceSystem::Instance()->LoadFont("default", "Resources/Fonts/Roboto-Regular.ttf");
+    const sf::Font* hudFont = ResourceSystem::Instance()->GetFont("default");
 
-    if (auto* music = ::Engine::ResourceSystem::Instance()->GetMusic("bgm")) {
-        music->setLoop(true); music->setVolume(20.f); music->setPitch(0.6f); music->play();
-        LOG_INFO("Background music started");
-    }
-    else {
-        LOG_WARN("Background music not loaded");
-    }
-
-    auto developerLevel = std::make_shared<DeveloperLevel>();
-    developerLevel->Start();
-
-
-    auto* hudFont = ::Engine::ResourceSystem::Instance()->GetFont("default");
     sf::Text hudText;
     if (hudFont) hudText.setFont(*hudFont);
-    hudText.setCharacterSize(28);
+    hudText.setCharacterSize(20);
     hudText.setFillColor(sf::Color::White);
     hudText.setOutlineColor(sf::Color::Black);
     hudText.setOutlineThickness(2.f);
-    hudText.setPosition(20.f, 20.f);
+    hudText.setPosition(15.f, 15.f);
 
-   
+    sf::RectangleShape staminaBg(sf::Vector2f(220.f, 14.f));
+    staminaBg.setFillColor(sf::Color(40, 40, 40));
+    staminaBg.setOutlineColor(sf::Color::White);
+    staminaBg.setOutlineThickness(1.f);
+    staminaBg.setPosition(15.f, 100.f);
+
+    sf::RectangleShape staminaFg(sf::Vector2f(220.f, 14.f));
+    staminaFg.setFillColor(sf::Color(80, 220, 255));
+    staminaFg.setPosition(15.f, 100.f);
+
     sf::Text gameOverText;
     if (hudFont) gameOverText.setFont(*hudFont);
-    gameOverText.setString("GAME OVER\nPress Enter to restart");
-    gameOverText.setCharacterSize(64);
+    gameOverText.setCharacterSize(72);
     gameOverText.setFillColor(sf::Color::Red);
-    auto b = gameOverText.getLocalBounds();
-    gameOverText.setOrigin(b.left + b.width * 0.5f, b.top + b.height * 0.5f);
-    gameOverText.setPosition(W * 0.5f, H * 0.5f);
+    gameOverText.setOutlineColor(sf::Color::Black);
+    gameOverText.setOutlineThickness(3.f);
 
+    sf::Text subText;
+    if (hudFont) subText.setFont(*hudFont);
+    subText.setString("Press Enter to restart");
+    subText.setCharacterSize(32);
+    subText.setFillColor(sf::Color::White);
+    subText.setOutlineColor(sf::Color::Black);
+    subText.setOutlineThickness(2.f);
 
-    Engine::GameObject* playerGO = nullptr;
+    auto& orch = GameOrchestrator::Instance();
+    orch.StartLevel();
 
-    ::Engine::Engine::Instance()->SetUpdateFunction([developerLevel, &playerGO](float dt) {
-        developerLevel->Update(dt);
-
- 
-        playerGO = nullptr;
-        for (auto* o : ::Engine::GameWorld::Instance()->GetGameObjects()) {
-            if (o->GetName() == "Player") {
-                playerGO = o;
-                break;
-            }
-        }
+    ::Engine::Engine::Instance()->SetUpdateFunction([&](float dt) {
+        orch.Update(dt);
         });
 
     ::Engine::Engine::Instance()->SetRenderFunction(
-        [&hudText, &gameOverText, &playerGO, W, H](sf::RenderWindow& window)
+        [&](sf::RenderWindow& window)
         {
-          
-            auto worldView = window.getView();
+            sf::View worldView = window.getView();
+            sf::View hudView(sf::FloatRect(0.f, 0.f, (float)W, (float)H));
+            window.setView(hudView);
 
-   
-            window.setView(sf::View(sf::FloatRect(0.f, 0.f, (float)W, (float)H)));
-            if (playerGO) {
-                if (auto* hp = playerGO->GetComponent<Engine::HealthComponent>()) {
-                    std::string s = "HP: " + std::to_string(hp->GetHp()) + "/"
-                        + std::to_string(hp->GetMaxHp()) + "\nARMOR: "
-                        + std::to_string(hp->GetArmor()) + "/"
-                        + std::to_string(hp->GetMaxArmor());
-                    hudText.setString(s);
-                    window.draw(hudText);
-                }
+            ::Engine::GameObject* player = orch.GetPlayer();
+            PlayerControllerComponent* pc = nullptr;
+            ::Engine::HealthComponent* ph = nullptr;
+
+            if (player)
+            {
+                pc = player->GetComponent<PlayerControllerComponent>();
+                ph = player->GetComponent<::Engine::HealthComponent>();
             }
 
-            if (::Engine::GameWorld::Instance()->IsPaused()) {
+            if (pc && ph)
+            {
+                std::string info =
+                    "HP: " + std::to_string(ph->GetHp()) + "/" + std::to_string(ph->GetMaxHp())
+                    + "   ARM: " + std::to_string(ph->GetArmor()) + "/" + std::to_string(ph->GetMaxArmor())
+                    + "\nStamina: " + std::to_string((int)pc->GetStamina())
+                    + "\nInventory:  Q=Clone " + std::string(orch.hasCloneItem ? "[+]" : "[-]")
+                    + "   E=Sword " + std::string(orch.hasSwordItem ? "[+]" : "[-]")
+                    + "   R=Speed " + std::string(orch.hasSpeedItem ? "[+]" : "[-]")
+                    + "   KEY " + std::string(orch.hasKey ? "[+]" : "[-]");
+                hudText.setString(info);
+                window.draw(hudText);
+
+                float pct = pc->GetStamina() / pc->GetStaminaMax();
+                staminaFg.setSize(sf::Vector2f(220.f * pct, 14.f));
+                staminaFg.setFillColor(orch.speedBoostTimer > 0.f ? sf::Color(255, 200, 0) : sf::Color(80, 220, 255));
+                window.draw(staminaBg);
+                window.draw(staminaFg);
+            }
+
+            if (orch.IsGameOver())
+            {
                 sf::RectangleShape overlay(sf::Vector2f((float)W, (float)H));
                 overlay.setFillColor(sf::Color(0, 0, 0, 200));
                 window.draw(overlay);
+
+                std::string msg = orch.IsWon() ? "YOU ESCAPED!" : "YOU DIED";
+                gameOverText.setString(msg);
+                gameOverText.setFillColor(orch.IsWon() ? sf::Color::Green : sf::Color::Red);
+
+                sf::FloatRect bounds = gameOverText.getLocalBounds();
+                gameOverText.setOrigin(bounds.left + bounds.width * 0.5f, bounds.top + bounds.height * 0.5f);
+                gameOverText.setPosition(W * 0.5f, H * 0.5f - 40.f);
                 window.draw(gameOverText);
+
+                sf::FloatRect subBounds = subText.getLocalBounds();
+                subText.setOrigin(subBounds.left + subBounds.width * 0.5f, subBounds.top + subBounds.height * 0.5f);
+                subText.setPosition(W * 0.5f, H * 0.5f + 50.f);
+                window.draw(subText);
             }
 
-          
             window.setView(worldView);
         });
 

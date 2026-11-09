@@ -24,6 +24,7 @@ namespace  Engine
 		void ZoomBy(float newZoom);
 
 		void SetBaseResolution(int width, int height);
+		void SetCenter(float x, float y); 
 	private:
 		TransformComponent* transform = nullptr; 
 		sf::RenderWindow* window = nullptr;    

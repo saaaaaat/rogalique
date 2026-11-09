@@ -160,35 +160,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Application.cpp" />
-    <ClCompile Include="DeveloperLevel .cpp" />
-    <ClCompile Include="Enemy.cpp" />
-    <ClCompile Include="Floor.cpp" />
-    <ClCompile Include="GameState.cpp" />
-    <ClCompile Include="GameStateData.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="Sprite.cpp" />
-    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="ChaseAIComponent.cpp" />
+    <ClCompile Include="ExitComponent.cpp" />
+    <ClCompile Include="ExploderComponent.cpp" />
+    <ClCompile Include="GameOrchestrator.cpp" />
+    <ClCompile Include="MazeRendererComponent.cpp" />
+    <ClCompile Include="PickupComponent.cpp" />
+    <ClCompile Include="PlayerControllerComponent.cpp" />
+    <ClCompile Include="RoguelikeMaze.cpp" />
     <ClCompile Include="GameMain.cpp" />
-    <ClCompile Include="GameStateMainMenu.cpp" />
-    <ClCompile Include="GameStatePlaying.cpp" />
-    <ClCompile Include="Menu.cpp" />
-    <ClCompile Include="Text.cpp" />
-    <ClCompile Include="Wall.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.h" />
+    <ClInclude Include="ChaseAIComponent.h" />
+    <ClInclude Include="CircleRendererComponent.h" />
     <ClInclude Include="Collidable.h" />
-    <ClInclude Include="DeveloperLevel.h" />
-    <ClInclude Include="Enemy.h" />
-    <ClInclude Include="Floor.h" />
+    <ClInclude Include="ExitComponent.h" />
+    <ClInclude Include="ExploderComponent.h" />
+    <ClInclude Include="GameOrchestrator.h" />
     <ClInclude Include="GameState.h" />
     <ClInclude Include="GameStateData.h" />
     <ClInclude Include="IDelayedAction.h" />
     <ClInclude Include="IObserver.h" />
-    <ClInclude Include="Player.h" />
+    <ClInclude Include="MazeRendererComponent.h" />
+    <ClInclude Include="PickupComponent.h" />
+    <ClInclude Include="PlayerControllerComponent.h" />
     <ClInclude Include="randomizer.h" />
-    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="RoguelikeMaze.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameSettings.h" />
     <ClInclude Include="GameStateMainMenu.h" />
@@ -196,7 +194,6 @@
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Text.h" />
     <ClInclude Include="Vector.h" />
-    <ClInclude Include="Wall.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Engine\Engine.vcxproj">
