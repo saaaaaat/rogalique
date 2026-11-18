@@ -175,18 +175,12 @@
     <ClCompile Include="GameMain.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Application.h" />
     <ClInclude Include="BossComponent.h" />
     <ClInclude Include="ChaseAIComponent.h" />
     <ClInclude Include="CircleRendererComponent.h" />
-    <ClInclude Include="Collidable.h" />
     <ClInclude Include="ExitComponent.h" />
     <ClInclude Include="ExploderComponent.h" />
     <ClInclude Include="GameOrchestrator.h" />
-    <ClInclude Include="GameState.h" />
-    <ClInclude Include="GameStateData.h" />
-    <ClInclude Include="IDelayedAction.h" />
-    <ClInclude Include="IObserver.h" />
     <ClInclude Include="LaserComponent.h" />
     <ClInclude Include="MazeRendererComponent.h" />
     <ClInclude Include="PickupComponent.h" />
@@ -195,13 +189,6 @@
     <ClInclude Include="ProjectileComponent.h" />
     <ClInclude Include="randomizer.h" />
     <ClInclude Include="RoguelikeMaze.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="GameSettings.h" />
-    <ClInclude Include="GameStateMainMenu.h" />
-    <ClInclude Include="GameStatePlaying.h" />
-    <ClInclude Include="Menu.h" />
-    <ClInclude Include="Text.h" />
-    <ClInclude Include="Vector.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Engine\Engine.vcxproj">
