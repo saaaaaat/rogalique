@@ -26,7 +26,10 @@ namespace Engine
 		sf::RenderWindow* window = nullptr;
 
 		RenderSystem() {}
-		~RenderSystem() {}
+		~RenderSystem() {
+			delete window;
+			window = nullptr;
+		}
 
 		RenderSystem(RenderSystem const&) = delete;
 		RenderSystem& operator= (RenderSystem const&) = delete;

@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "GameWorld.h"
+#include "Logger.h"
 #include <algorithm>
 
 namespace Engine
@@ -83,6 +84,23 @@ namespace Engine
 		gameObjects.clear();
 		markedToDestroyGameObjects.clear();
 		fixedCounter = 0.f;
+	}
+
+	std::vector<GameObject*> GameWorld::DetachAll()
+	{
+		std::vector<GameObject*> saved = gameObjects;
+		gameObjects.clear();
+		markedToDestroyGameObjects.clear();
+		LOG_INFO("GameWorld: detached " + std::to_string(saved.size()) + " objects");
+		return saved;
+	}
+
+	void GameWorld::AttachAll(const std::vector<GameObject*>& objs)
+	{
+		for (auto* o : objs) {
+			if (o) gameObjects.push_back(o);
+		}
+		LOG_INFO("GameWorld: attached " + std::to_string(gameObjects.size()) + " objects");
 	}
 
 	void GameWorld::Print() const

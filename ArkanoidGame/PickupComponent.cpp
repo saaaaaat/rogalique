@@ -17,7 +17,11 @@ namespace RogaliqueGame
         case ItemType::Clone: return "Clone";
         case ItemType::Sword: return "Sword";
         case ItemType::Speed: return "Speed";
-        case ItemType::Key:   return "Key";
+        case ItemType::Key1:  return "Half Key 1";
+        case ItemType::Key2:  return "Half Key 2";
+        case ItemType::PurpleKey: return "Purple Key";
+        case ItemType::HealthPotion: return "Health Potion";
+        case ItemType::InvisibilityPotion: return "Invisibility Potion";
         }
         return "?";
     }
@@ -34,9 +38,9 @@ namespace RogaliqueGame
         if (orch.IsGameOver()) return;
 
         auto* t = GetGameObject()->GetComponent<TransformComponent>();
-        if (!t) return;
+
         auto* player = orch.GetPlayer();
-        if (!player) return;
+        if (!t || !player) return;
         auto* pt = player->GetComponent<TransformComponent>();
         if (!pt) return;
 

@@ -20,7 +20,10 @@ namespace RogaliqueGame
 
         for (int x = 0; x < GLOBAL_CELLS_X; x++)
             for (int y = 0; y < GLOBAL_CELLS_Y; y++)
+            {
                 walls[x][y] = true;
+                passages[x][y] = false;
+            }
 
         for (int b = 0; b < BLOCK_COUNT; b++)
             GenerateBlock(b, rng);
@@ -33,7 +36,7 @@ namespace RogaliqueGame
 
     void RoguelikeMaze::GenerateBlock(int block, std::mt19937& rng)
     {
-        int bc = block % 2, br = block / 2;
+        int bc = block % 3, br = block / 3;
         int offX = bc * CELLS_PER_BLOCK_X;
         int offY = br * CELLS_PER_BLOCK_Y;
 
@@ -54,7 +57,7 @@ namespace RogaliqueGame
         {
             auto [cx, cy] = stack.top();
 
-           
+
             std::vector<std::pair<int, int>> available;
             for (const auto& dir : directions)
             {
@@ -70,11 +73,11 @@ namespace RogaliqueGame
 
             if (!available.empty())
             {
-               
+
                 std::uniform_int_distribution<int> pick(0, (int)available.size() - 1);
                 auto [nx, ny] = available[pick(rng)];
 
-         
+
                 int wallX = (cx + nx) / 2;
                 int wallY = (cy + ny) / 2;
 
@@ -85,7 +88,7 @@ namespace RogaliqueGame
             }
             else
             {
-               
+
                 stack.pop();
             }
         }
@@ -96,21 +99,32 @@ namespace RogaliqueGame
         std::uniform_int_distribution<int> yDist(0, 1);
         std::uniform_int_distribution<int> xDist(0, 1);
 
+
         int y1 = (yDist(rng) == 0) ? 5 : 7;
+        int y2 = (yDist(rng) == 0) ? 5 : 7;
+        walls[20][12 + y1] = false; passages[20][12 + y1] = true;
+        walls[40][12 + y2] = false; passages[40][12 + y2] = true;
+        walls[20][y1] = false;      passages[20][y1] = true;
+        walls[40][y2] = false;      passages[40][y2] = true;
+
+
         int x1 = (xDist(rng) == 0) ? 9 : 11;
         int x2 = (xDist(rng) == 0) ? 9 : 11;
-        int y2 = (yDist(rng) == 0) ? 5 : 7;
-
-        walls[20][12 + y1] = false;
-        walls[x1][12] = false;
-        walls[20 + x2][12] = false;
-        walls[20][y2] = false;
+        int x3 = (xDist(rng) == 0) ? 9 : 11;
+        walls[x1][12] = false;        passages[x1][12] = true;
+        walls[20 + x2][12] = false;   passages[20 + x2][12] = true;
+        walls[40 + x3][12] = false;   passages[40 + x3][12] = true;
     }
 
     bool RoguelikeMaze::IsWall(int gx, int gy) const
     {
         if (gx < 0 || gx >= GLOBAL_CELLS_X || gy < 0 || gy >= GLOBAL_CELLS_Y) return true;
         return walls[gx][gy];
+    }
+
+    bool RoguelikeMaze::IsPassage(int gx, int gy) const {
+        if (gx < 0 || gx >= GLOBAL_CELLS_X || gy < 0 || gy >= GLOBAL_CELLS_Y) return false;
+        return passages[gx][gy];
     }
 
     bool RoguelikeMaze::IsWallWorld(float x, float y) const
@@ -132,14 +146,14 @@ namespace RogaliqueGame
 
     int RoguelikeMaze::BlockAt(float x, float y) const
     {
-        int bc = (x >= BLOCK_W) ? 1 : 0;
+        int bc = (int)(x / BLOCK_W);
         int br = (y >= BLOCK_H) ? 1 : 0;
-        return br * 2 + bc;
+        return br * 3 + bc;
     }
 
     Engine::Vector2Df RoguelikeMaze::BlockOrigin(int block) const
     {
-        int bc = block % 2, br = block / 2;
+        int bc = block % 3, br = block / 3;
         return { bc * BLOCK_W, br * BLOCK_H };
     }
 
@@ -163,7 +177,7 @@ namespace RogaliqueGame
 
     Engine::Vector2Df RoguelikeMaze::LocalRoomCenter(int block, int localX, int localY) const
     {
-        int bc = block % 2, br = block / 2;
+        int bc = block % 3, br = block / 3;
         int gx = bc * CELLS_PER_BLOCK_X + localX;
         int gy = br * CELLS_PER_BLOCK_Y + localY;
         return GlobalCellCenter(gx, gy);
@@ -172,7 +186,7 @@ namespace RogaliqueGame
     Engine::Vector2Df RoguelikeMaze::RandomRoomCenter(int blockFilter) const
     {
         static std::mt19937 rng(seed ^ 0xDEADBEEF);
-        std::uniform_int_distribution<int> bDist(0, 3);
+        std::uniform_int_distribution<int> bDist(0, 5);
         std::uniform_int_distribution<int> xDist(0, 9);
         std::uniform_int_distribution<int> yDist(0, 5);
 
@@ -183,7 +197,7 @@ namespace RogaliqueGame
             int ly = 1 + 2 * yDist(rng);
             if (lx >= CELLS_PER_BLOCK_X || ly >= CELLS_PER_BLOCK_Y) continue;
 
-            int bc = b % 2, br = b / 2;
+            int bc = b % 3, br = b / 3;
             int gx = bc * CELLS_PER_BLOCK_X + lx;
             int gy = br * CELLS_PER_BLOCK_Y + ly;
             if (!walls[gx][gy])
@@ -210,8 +224,7 @@ namespace RogaliqueGame
         std::vector<std::vector<float>> g(GLOBAL_CELLS_X, std::vector<float>(GLOBAL_CELLS_Y, 1e9f));
         std::vector<std::vector<std::pair<int, int>>> parent(GLOBAL_CELLS_X,
             std::vector<std::pair<int, int>>(GLOBAL_CELLS_Y, { -1, -1 }));
-        std::vector<std::vector<bool>> closed(GLOBAL_CELLS_X,
-            std::vector<bool>(GLOBAL_CELLS_Y, false));
+        std::vector<std::vector<bool>> closed(GLOBAL_CELLS_X, std::vector<bool>(GLOBAL_CELLS_Y, false));
 
         g[fx][fy] = 0.f;
         open.push({ h(fx, fy), fx, fy });

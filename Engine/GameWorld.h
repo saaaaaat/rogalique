@@ -24,6 +24,9 @@ namespace Engine
 		GameObject* CreateGameObject(std::string name);
 		void DestroyGameObject(GameObject* gameObject);
 		void Clear();
+		std::vector<GameObject*> DetachAll();
+	
+		void AttachAll(const std::vector<GameObject*>& objs);
 
 		void Print() const;
 

@@ -1,0 +1,1989 @@
+﻿[INFO] Maze generated, seed=28725
+[INFO] [Exit] Spawned
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Half Key 1
+[INFO] [Item] Spawned: Health Potion
+[INFO] [Item] Spawned: Invisibility Potion
+[INFO] Level Generated
+[INFO] [Exploder] Spawned
+[INFO] [Exploder] Spawned
+[WARNING] [Exploder] Armed! Countdown 2.0s
+[INFO] [Exploder] Player escaped the blast (dist=144)
+[ERROR] [Exploder] Detonated at (864,1290)
+[WARNING] Portal Locked. Need Purple Key from Chaser!
+[INFO] [Exploder] Spawned
+[INFO] [Exploder] Spawned
+[INFO] [Player] Picked up: Invisibility Potion
+[INFO] [Exploder] Spawned
+[INFO] [Exploder] Spawned
+[WARNING] [Exploder] Armed! Countdown 2.0s
+[INFO] [Exploder] Spawned
+[INFO] [Exploder] Player escaped the blast (dist=319)
+[ERROR] [Exploder] Detonated at (1888,1050)
+[INFO] [Player] Picked up: Clone
+[INFO] [Exploder] Spawned
+[WARNING] [Exploder] Armed! Countdown 2.0s
+[INFO] [Exploder] Player escaped the blast (dist=338)
+[ERROR] [Exploder] Detonated at (2400,690)
+[INFO] [Exploder] Spawned
+[INFO] [Exploder] Spawned
+[INFO] [Player] Picked up: Health Potion
+[WARNING] [Exploder] Armed! Countdown 2.0s
+[INFO] [Exploder] Player escaped the blast (dist=326)
+[ERROR] [Exploder] Detonated at (2400,90)
+[INFO] [Exploder] Spawned
+﻿[INFO] Maze generated, seed=29075
+[INFO] [Exit] Spawned
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Half Key 1
+[INFO] [Item] Spawned: Health Potion
+[INFO] [Item] Spawned: Invisibility Potion
+[INFO] Level Generated
+[INFO] [Exploder] Spawned
+[INFO] [Player] Picked up: Speed
+[INFO] [Exploder] Spawned
+[INFO] [Exploder] Spawned
+[INFO] [Exploder] Spawned
+[INFO] [Exploder] Spawned
+[INFO] [Exploder] Spawned
+[INFO] [Exploder] Spawned
+﻿[INFO] Roguelike started
+[INFO] Maze generated, seed=1794945482
+[INFO] [Player] Controller attached, stamina=100
+[INFO] Player spawned at (96,810)
+[INFO] [Chaser] AI attached (speed=140)
+[INFO] Chaser spawned at (2400,210)
+[INFO] [Exit] Spawned
+[INFO] Exit spawned at (2400,570) in block 3
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Key
+[INFO] === Level loaded (seed=1794945482) ===
+[INFO] Items: Clone, Sword, Speed, Key scattered in the maze
+[INFO] [Player] Entered block 2
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=87 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=67 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Exploder] Spawned
+[INFO] [Spawn] Exploder at (608,810)
+[INFO] [Player] HP=100/100 ARM=30/30 STA=47 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=27 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=7 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=10 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] Picked up: Key
+[INFO] Inventory: +KEY
+[INFO] [Player] HP=100/100 ARM=30/30 STA=20 Items{C:0 S:0 U:0 K:1} Boost=0
+[INFO] [Exploder] Spawned
+[INFO] [Spawn] Exploder at (1120,690)
+[INFO] [Player] HP=100/100 ARM=30/30 STA=13 Items{C:0 S:0 U:0 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=10 Items{C:0 S:0 U:0 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 K:1} Boost=0
+[INFO] [Player] Picked up: Speed
+[INFO] Inventory: +Speed
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Exploder] Spawned
+[INFO] [Spawn] Exploder at (1504,930)
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:1 K:1} Boost=0
+[WARNING] [Exploder] Armed! Countdown 2.0s
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=1 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Exploder] Player escaped the blast (dist=195)
+[ERROR] [Exploder] Detonated at (608,810)
+[INFO] [Player] HP=100/100 ARM=30/30 STA=11 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=12 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] Picked up: Clone
+[INFO] Inventory: +Clone
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:1 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:1 S:0 U:1 K:1} Boost=0
+[WARNING] [Chaser] Hit player for 20 HP
+[INFO] [Player] HP=100/100 ARM=10/30 STA=2 Items{C:1 S:0 U:1 K:1} Boost=0
+[INFO] [Item] Clone deployed at (805,793), 10s duration
+[INFO] [Exploder] Spawned
+[INFO] [Spawn] Exploder at (2016,450)
+[INFO] [Player] HP=100/100 ARM=10/30 STA=0 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=2 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=12 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=22 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] Entered block 0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=27 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=37 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=47 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=41 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Exploder] Spawned
+[INFO] [Spawn] Exploder at (480,210)
+[INFO] [Player] HP=100/100 ARM=10/30 STA=36 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=46 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Clone] Expired
+[INFO] [Player] HP=100/100 ARM=10/30 STA=50 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=60 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=70 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=71 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=57 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=37 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Exploder] Spawned
+[INFO] [Spawn] Exploder at (736,810)
+[INFO] [Player] HP=100/100 ARM=10/30 STA=17 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] Entered block 1
+[INFO] [Player] HP=100/100 ARM=10/30 STA=0 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=0 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=2 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=2 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=11 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=11 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=21 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Exploder] Spawned
+[INFO] [Spawn] Exploder at (96,570)
+[INFO] [Player] HP=100/100 ARM=10/30 STA=25 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=29 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=39 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=36 Items{C:0 S:0 U:1 K:1} Boost=0
+[WARNING] [Exploder] Armed! Countdown 2.0s
+[INFO] [Player] HP=100/100 ARM=10/30 STA=37 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=17 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Exploder] Player escaped the blast (dist=162)
+[ERROR] [Exploder] Detonated at (2016,450)
+[INFO] [Player] HP=100/100 ARM=10/30 STA=2 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=7 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Exploder] Spawned
+[INFO] [Spawn] Exploder at (2528,330)
+[INFO] [Player] HP=100/100 ARM=10/30 STA=0 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=0 Items{C:0 S:0 U:1 K:1} Boost=0
+[INFO] [Player] Picked up: Sword
+[INFO] Inventory: +Sword
+[INFO] [Player] HP=100/100 ARM=10/30 STA=0 Items{C:0 S:1 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=4 Items{C:0 S:1 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=14 Items{C:0 S:1 U:1 K:1} Boost=0
+[WARNING] [Exploder] Armed! Countdown 2.0s
+[INFO] [Player] HP=100/100 ARM=10/30 STA=21 Items{C:0 S:1 U:1 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=1 Items{C:0 S:1 U:1 K:1} Boost=0
+[INFO] [Exploder] Player escaped the blast (dist=350)
+[ERROR] [Exploder] Detonated at (2528,330)
+[INFO] [Player] HP=100/100 ARM=10/30 STA=0 Items{C:0 S:1 U:1 K:1} Boost=0
+[INFO] [Exploder] Spawned
+[INFO] [Spawn] Exploder at (2016,570)
+[INFO] [Player] HP=100/100 ARM=10/30 STA=4 Items{C:0 S:1 U:1 K:1} Boost=0
+[INFO] [Exit] Door opened. YOU WIN!
+[ERROR] === YOU WIN! ===
+[INFO] Press Enter to restart
+[INFO] Program exited
+﻿[INFO] Roguelike started
+[INFO] Maze generated, seed=1794946164
+[INFO] [Player] Controller attached, stamina=100
+[INFO] Player spawned at (96,810)
+[INFO] [Chaser] AI attached (speed=140)
+[INFO] Chaser spawned at (2400,210)
+[INFO] [Exit] Spawned
+[INFO] Exit spawned at (2400,570) in block 3
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Key
+[INFO] === Level loaded (seed=1794946164) ===
+[INFO] Items: Clone, Sword, Speed, Key scattered in the maze
+[INFO] [Player] Entered block 2
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=96 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=82 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=62 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=42 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Exploder] Spawned
+[INFO] [Spawn] Exploder at (1248,1170)
+[INFO] [Player] HP=100/100 ARM=30/30 STA=22 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=2 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] Picked up: Sword
+[INFO] Inventory: +Sword
+[INFO] [Player] HP=100/100 ARM=30/30 STA=5 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=15 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Exploder] Spawned
+[INFO] [Spawn] Exploder at (352,210)
+[INFO] [Player] HP=100/100 ARM=30/30 STA=1 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=11 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=21 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=31 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=20 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Exploder] Spawned
+[INFO] [Spawn] Exploder at (736,810)
+[INFO] [Player] HP=100/100 ARM=30/30 STA=2 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=8 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=18 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=21 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=1 Items{C:0 S:1 U:0 K:0} Boost=0
+[WARNING] [Exploder] Armed! Countdown 2.0s
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Exploder] Player escaped the blast (dist=435)
+[ERROR] [Exploder] Detonated at (736,810)
+[INFO] [Exploder] Spawned
+[INFO] [Spawn] Exploder at (2400,570)
+[INFO] [Player] HP=100/100 ARM=30/30 STA=8 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=11 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=5 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 K:0} Boost=0
+[INFO] [Exploder] Spawned
+[INFO] [Spawn] Exploder at (2144,930)
+[INFO] [Player] HP=100/100 ARM=30/30 STA=7 Items{C:0 S:1 U:0 K:0} Boost=0
+[WARNING] [Chaser] Hit player for 20 HP
+[INFO] Program exited
+﻿[INFO] Roguelike started
+[INFO] Maze generated, seed=1794992741
+[INFO] [Player] Controller attached, stamina=100
+[INFO] Player spawned at (96,810)
+[INFO] [Chaser] AI attached (speed=140)
+[INFO] Chaser spawned at (2400,210)
+[INFO] [Exit] Spawned
+[INFO] Exit spawned at (2400,570) in block 3
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Key
+[INFO] === Level loaded (seed=1794992741) ===
+[INFO] Items: Clone, Sword, Speed, Key scattered in the maze
+[INFO] [Player] Entered block 2
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=93 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=98 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=83 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=63 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Exploder] Spawned
+[INFO] [Spawn] Exploder at (224,90)
+[INFO] [Player] HP=100/100 ARM=30/30 STA=43 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=48 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=58 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=68 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=52 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=32 Items{C:0 S:0 U:0 K:0} Boost=0
+[INFO] [Player] Picked up: Key
+[INFO] Inventory: +KEY
+[INFO] [Player] HP=100/100 ARM=30/30 STA=12 Items{C:0 S:0 U:0 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 K:1} Boost=0
+[INFO] [Exploder] Spawned
+[INFO] [Spawn] Exploder at (96,690)
+[INFO] [Player] HP=100/100 ARM=30/30 STA=3 Items{C:0 S:0 U:0 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=5 Items{C:0 S:0 U:0 K:1} Boost=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=15 Items{C:0 S:0 U:0 K:1} Boost=0
+[INFO] Program exited
+﻿[INFO] Maze generated, seed=14193
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Half Key 1
+[INFO] [Item] Spawned: Health Potion
+[INFO] [Item] Spawned: Invisibility Potion
+[INFO] Level Generated 
+[INFO] [Player] Entered block 3
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=84 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=64 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Picked up: Clone
+[INFO] Inventory: +Clone
+[INFO] [Player] HP=100/100 ARM=30/30 STA=52 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=41 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=32 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=30 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=12 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=11 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=21 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=31 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=41 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=51 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=61 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=71 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=81 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=91 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=83 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=76 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=56 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=36 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=16 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 4
+[INFO] [Player] HP=100/100 ARM=30/30 STA=4 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=8 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=18 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=28 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=15 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=20 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=30 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Item] Clone deployed
+[INFO] [Player] HP=100/100 ARM=30/30 STA=30 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=10 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 5
+[INFO] [Player] HP=100/100 ARM=30/30 STA=5 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=15 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=25 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=35 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=35 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=45 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Clone] Expired.
+[INFO] [Player] HP=100/100 ARM=30/30 STA=40 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=44 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=46 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=45 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=47 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=27 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=26 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=27 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=32 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=37 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=45 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=42 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=37 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=25 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 2
+[INFO] [Player] HP=100/100 ARM=30/30 STA=22 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=32 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=38 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=26 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=18 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=28 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=38 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=48 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=47 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=34 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[WARNING] Portal Locked. Need Purple Key 
+[INFO] [Player] HP=100/100 ARM=30/30 STA=27 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Picked up: Sword
+[INFO] Inventory: +Sword
+[INFO] [Player] HP=100/100 ARM=30/30 STA=23 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=33 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=30 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=30 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=40 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Item] Sword USED!
+[INFO] [Item] Spawned: Purple Key
+[INFO] [Sword] Chaser dropped Purple Key!
+[INFO] [Sword] Chaser destroyed
+[INFO] [Player] Picked up: Purple Key
+[INFO] Inventory: +Purple Key
+[INFO] [Player] HP=100/100 ARM=30/30 STA=50 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=37 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=26 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] Entering BOSS ROOM
+[INFO] Portal saved at: (3296,330)
+[INFO] Maze preserved: 17 objects
+[INFO] BOSS: Phase 1  вЂ” survive 30 seconds!
+[ERROR] BOSS ROOM ENTERED. PREPARE TO DODGE
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=99 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: dodge up/down
+[INFO] [Player] HP=100/100 ARM=30/30 STA=95 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=88 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=93 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: stay in the middle strip
+[INFO] [Player] HP=100/100 ARM=30/30 STA=93 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=91 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS:hide in a corner!
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=96 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: dodge up/down
+[INFO] [Player] HP=100/100 ARM=30/30 STA=88 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=93 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS:dodge left/right
+[INFO] [Player] HP=100/100 ARM=30/30 STA=99 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=99 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=99 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=86 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=96 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: dodge up/down
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS:dodge left/right
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS:hide in a corner!
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS:dodge left/right
+[INFO] [Player] HP=100/100 ARM=30/30 STA=97 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Phase 2  вЂ” survive 30 seconds!
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(586,379) baseAngle=207deg
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(597,330) baseAngle=45deg
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(580,410) baseAngle=158deg
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(695,352) baseAngle=201deg
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(716,340) baseAngle=238deg
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=98 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(650,400) baseAngle=126deg
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(644,315) baseAngle=286deg
+[INFO] [Player] HP=100/100 ARM=30/30 STA=94 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=74 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(659,397) baseAngle=258deg
+[INFO] [Player] HP=100/100 ARM=30/30 STA=68 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=69 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(603,330) baseAngle=359deg
+[WARNING] Player hit by bullet HP: 100
+[INFO] [Player] HP=100/100 ARM=15/30 STA=69 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(665,392) baseAngle=28deg
+[INFO] [Player] HP=100/100 ARM=15/30 STA=65 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=15/30 STA=66 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(693,388) baseAngle=193deg
+[INFO] [Player] HP=100/100 ARM=15/30 STA=66 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=15/30 STA=71 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(582,360) baseAngle=33deg
+[INFO] [Player] HP=100/100 ARM=15/30 STA=62 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by bullet HP: 100
+[INFO] [Player] HP=100/100 ARM=0/30 STA=70 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(680,370) baseAngle=79deg
+[INFO] [Player] HP=100/100 ARM=0/30 STA=80 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=69 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(615,325) baseAngle=223deg
+[INFO] [Player] HP=100/100 ARM=0/30 STA=74 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(597,328) baseAngle=24deg
+[INFO] [Player] HP=100/100 ARM=0/30 STA=84 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by bullet HP: 85
+[INFO] [Player] HP=85/100 ARM=0/30 STA=77 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(651,427) baseAngle=142deg
+[INFO] [Player] HP=85/100 ARM=0/30 STA=67 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=85/100 ARM=0/30 STA=77 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(662,428) baseAngle=344deg
+[INFO] BOSS DEFEATED Half Key 2 granted.
+[INFO] [Player] HP=85/100 ARM=0/30 STA=80 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=85/100 ARM=0/30 STA=80 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Boss] Leaving boss room...
+[INFO] [Boss] ExitBossRoom start
+[INFO] [Boss] Portal destroyed permanently
+[INFO] Player placed at portal position (3296,330)
+[INFO] Maze restored: 16 objects
+[INFO] [Player] HP=100/100 ARM=30/30 STA=17 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=27 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=8 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=15 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=25 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=18 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=22 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=30 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=37 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=47 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=57 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=67 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=55 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=59 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 1
+[INFO] [Player] HP=100/100 ARM=30/30 STA=55 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=65 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=59 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=58 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=58 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=57 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=57 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=55 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=65 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 4
+[INFO] [Player] HP=100/100 ARM=30/30 STA=75 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=85 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=87 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=84 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] Picked up: Half Key 1
+[INFO] Inventory: +Half Key 1
+[INFO] [Player] HP=100/100 ARM=30/30 STA=84 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=74 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=65 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=51 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=40 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=29 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=28 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] Picked up: Health Potion
+[INFO] Inventory: +Health Potion
+[INFO] [Player] Entered block 5
+[INFO] [Player] HP=100/100 ARM=30/30 STA=8 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=5 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=15 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=19 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=29 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=39 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=49 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=59 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=69 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=79 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=89 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=95 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=76 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=56 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=45 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=55 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=50 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=46 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=44 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=44 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=54 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=64 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=48 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=47 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=27 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 2
+[INFO] [Player] HP=100/100 ARM=30/30 STA=35 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 5
+[INFO] [Player] HP=100/100 ARM=30/30 STA=45 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=55 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=65 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=75 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=85 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=95 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 2
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 5
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 2
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 5
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 2
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 5
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:1 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+﻿[INFO] Maze generated, seed=14915
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Half Key 1
+[INFO] [Item] Spawned: Health Potion
+[INFO] [Item] Spawned: Invisibility Potion
+[INFO] Level Generated 
+[INFO] [Player] Entered block 3
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=88 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=68 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=64 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=51 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=37 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=33 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=43 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=41 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=29 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=32 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=36 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=37 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=45 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=55 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=61 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=51 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=31 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=11 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=4 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=2 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 1
+[INFO] [Player] HP=100/100 ARM=30/30 STA=12 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=22 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=17 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=9 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=19 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=29 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=39 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=49 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=59 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Picked up: Clone
+[INFO] Inventory: +Clone
+[INFO] [Player] HP=100/100 ARM=30/30 STA=65 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=75 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=72 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=71 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=81 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=85 Items{C:1 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Item] Clone deployed
+[INFO] [Player] HP=100/100 ARM=30/30 STA=94 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=92 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=82 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 4
+[INFO] [Player] HP=100/100 ARM=30/30 STA=92 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=99 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=79 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=59 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=39 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=44 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 5
+[INFO] [Clone] Expired.
+[INFO] [Player] HP=100/100 ARM=30/30 STA=54 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=64 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=57 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=44 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=28 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=8 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 2
+[INFO] [Player] HP=100/100 ARM=30/30 STA=10 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=6 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=5 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=15 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=25 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=35 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[WARNING] Portal Locked. Need Purple Key 
+[INFO] [Player] HP=100/100 ARM=30/30 STA=45 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=55 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=65 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Picked up: Sword
+[INFO] Inventory: +Sword
+[INFO] [Player] HP=100/100 ARM=30/30 STA=75 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=85 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=95 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Item] Sword USED!
+[INFO] [Item] Spawned: Purple Key
+[INFO] [Sword] Chaser dropped Purple Key!
+[INFO] [Sword] Chaser destroyed
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Picked up: Purple Key
+[INFO] Inventory: +Purple Key
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Chaser] Respawned!
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=96 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] Entering BOSS ROOM
+[INFO] Portal saved at: (3424,210)
+[INFO] Maze preserved: 18 objects
+[INFO] BOSS: Phase 1  вЂ” survive 30 seconds!
+[ERROR] BOSS ROOM ENTERED. PREPARE TO DODGE
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=86 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=85 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=95 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS: SAFE STRIP  at y=426
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS:hide in a corner!
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS: SAFE STRIP  at x=594
+[INFO] [Player] HP=100/100 ARM=30/30 STA=93 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by laser Damage: 5
+[INFO] [Player] HP=95/100 ARM=0/30 STA=86 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: stay in the middle strip
+[INFO] [Player] HP=95/100 ARM=0/30 STA=93 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=97 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=88 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=95 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS:hide in a corner!
+[INFO] [Player] HP=95/100 ARM=0/30 STA=84 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=86 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=96 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=97 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: dodge up/down
+[INFO] [Player] HP=95/100 ARM=0/30 STA=92 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS:dodge left/right
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: dodge up/down
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS: SAFE STRIP  at y=404
+[INFO] [Player] HP=95/100 ARM=0/30 STA=97 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Phase 2  вЂ” survive 30 seconds!
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(586,417) baseAngle=235deg
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by bullet HP: 80
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(636,316) baseAngle=303deg
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(598,320) baseAngle=348deg
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(665,402) baseAngle=244deg
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(612,316) baseAngle=55deg
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(638,413) baseAngle=55deg
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(631,406) baseAngle=278deg
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(661,326) baseAngle=11deg
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(650,428) baseAngle=167deg
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(650,432) baseAngle=273deg
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(647,400) baseAngle=287deg
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=80/100 ARM=0/30 STA=92 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(643,429) baseAngle=139deg
+[INFO] [Player] HP=80/100 ARM=0/30 STA=96 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=80/100 ARM=0/30 STA=99 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(605,297) baseAngle=47deg
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(692,378) baseAngle=156deg
+[INFO] [Player] HP=80/100 ARM=0/30 STA=99 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(608,309) baseAngle=55deg
+[INFO] [Player] HP=80/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by bullet HP: 65
+[INFO] [Player] HP=65/100 ARM=0/30 STA=96 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(697,389) baseAngle=101deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(581,311) baseAngle=50deg
+[INFO] BOSS DEFEATED Half Key 2 granted.
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=95 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Boss] Leaving boss room...
+[INFO] [Boss] ExitBossRoom start
+[INFO] [Boss] Portal destroyed permanently
+[INFO] Player placed at portal position (3424,210)
+[INFO] Maze restored: 17 objects
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=84 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=64 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=44 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=24 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=4 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 5
+[INFO] [Player] HP=100/100 ARM=30/30 STA=3 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=13 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=18 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=19 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=16 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=14 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=9 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 4
+[INFO] [Player] HP=100/100 ARM=30/30 STA=12 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=22 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=32 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=42 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=52 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=62 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=68 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=78 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=88 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=75 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=55 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=45 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=43 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=44 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=29 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] Picked up: Half Key 1
+[INFO] Inventory: +Half Key 1
+[INFO] [Player] HP=100/100 ARM=30/30 STA=24 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=17 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 3
+[INFO] [Player] HP=100/100 ARM=30/30 STA=21 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=31 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=25 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=35 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=38 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=18 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=12 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=22 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=32 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=28 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=36 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=43 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=23 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=3 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=1 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=4 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=1 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=1 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=3 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=11 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=7 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=6 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 1
+[INFO] [Player] HP=100/100 ARM=30/30 STA=16 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=23 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=3 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=4 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=14 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=17 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=18 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=20 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=30 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=40 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=45 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=55 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=55 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=50 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=42 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=45 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=32 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 2
+[INFO] [Player] HP=100/100 ARM=30/30 STA=12 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=6 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=16 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=26 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=27 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=33 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=31 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=32 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=38 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=18 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=23 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=13 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=6 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=6 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=11 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=21 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=31 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=41 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=27 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=7 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=4 Items{C:0 S:0 U:0 H:0 I:0 K1:1 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Exit] Door opened. win
+[ERROR] YOU WIN
+[INFO]  RESTARTING LEVEL 
+[INFO] Maze generated, seed=10533
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Half Key 1
+[INFO] [Item] Spawned: Health Potion
+[INFO] [Item] Spawned: Invisibility Potion
+[INFO] Level Generated 
+[INFO] [Player] Entered block 3
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+﻿[INFO] Maze generated, seed=22317
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Half Key 1
+[INFO] [Item] Spawned: Health Potion
+[INFO] [Item] Spawned: Invisibility Potion
+[INFO] Level Generated 
+[INFO] [Player] Entered block 3
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=98 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=78 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=86 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=96 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Picked up: Speed
+[INFO] Inventory: +Speed
+[INFO] [Player] HP=100/100 ARM=30/30 STA=87 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=94 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=89 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=81 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=67 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=68 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=71 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=74 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=67 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=47 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=36 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=25 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=31 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=30 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Picked up: Sword
+[INFO] Inventory: +Sword
+[INFO] [Player] HP=100/100 ARM=30/30 STA=35 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=36 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=28 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=23 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=10 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=1 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=11 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=21 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=31 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 1
+[INFO] [Player] HP=100/100 ARM=30/30 STA=41 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=51 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Item] Sword USED!
+[INFO] [Item] Spawned: Purple Key
+[INFO] [Sword] Chaser dropped Purple Key!
+[INFO] [Sword] Chaser destroyed
+[INFO] [Player] HP=100/100 ARM=30/30 STA=61 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Picked up: Purple Key
+[INFO] Inventory: +Purple Key
+[INFO] [Player] HP=100/100 ARM=30/30 STA=71 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=78 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=88 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=79 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=89 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=88 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=81 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Chaser] Respawned!
+[INFO] [Player] HP=100/100 ARM=30/30 STA=77 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=84 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=77 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=84 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=80 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=72 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=82 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 2
+[INFO] [Player] HP=100/100 ARM=30/30 STA=92 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] Picked up: Invisibility Potion
+[INFO] Inventory: +Invisibility Potion
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=85 Items{C:0 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=65 Items{C:0 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=45 Items{C:0 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=37 Items{C:0 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] [Exit] Locked. Need both halves of the key
+[INFO] [Player] HP=100/100 ARM=10/30 STA=37 Items{C:0 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=38 Items{C:0 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=30 Items{C:0 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] Picked up: Clone
+[INFO] Inventory: +Clone
+[INFO] [Player] HP=100/100 ARM=10/30 STA=39 Items{C:1 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=23 Items{C:1 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] Entering BOSS ROOM
+[INFO] Portal saved at: (3680,210)
+[INFO] Maze preserved: 14 objects
+[INFO] BOSS: Phase 1  вЂ” survive 30 seconds!
+[ERROR] BOSS ROOM ENTERED. PREPARE TO DODGE
+[INFO] [Player] HP=100/100 ARM=30/30 STA=98 Items{C:1 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=92 Items{C:1 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: dodge up/down
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:1 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:1 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=95 Items{C:1 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS:dodge left/right
+[INFO] [Player] HP=100/100 ARM=30/30 STA=85 Items{C:1 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=95 Items{C:1 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: stay in the middle strip
+[INFO] [Player] HP=100/100 ARM=30/30 STA=89 Items{C:1 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=90 Items{C:1 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:1 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS:hide in a corner!
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:1 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by laser Damage: 0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=95 Items{C:1 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: dodge up/down
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:1 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by laser Damage: 30
+[INFO] [Player] HP=70/100 ARM=0/30 STA=100 Items{C:1 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: stay in the middle strip
+[INFO] [Player] HP=70/100 ARM=0/30 STA=100 Items{C:1 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=70/100 ARM=0/30 STA=99 Items{C:1 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by laser Damage: 30
+[INFO] [Player] HP=40/100 ARM=0/30 STA=100 Items{C:1 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS:hide in a corner!
+[INFO] [Player] HP=40/100 ARM=0/30 STA=100 Items{C:1 S:0 U:1 H:0 I:1 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by laser Damage: 30
+[WARNING] Player hit by laser Damage: 10
+[ERROR] GAME OVER
+[INFO]  RESTARTING LEVEL 
+[INFO] Maze generated, seed=11057
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Half Key 1
+[INFO] [Item] Spawned: Health Potion
+[INFO] [Item] Spawned: Invisibility Potion
+[INFO] Level Generated 
+[INFO] [Player] Entered block 3
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+﻿[INFO] Maze generated, seed=22637
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Half Key 1
+[INFO] [Item] Spawned: Health Potion
+[INFO] [Item] Spawned: Invisibility Potion
+[INFO] Level Generated 
+[INFO] [Player] Entered block 3
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=89 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+﻿[INFO] Maze generated, seed=22663
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Half Key 1
+[INFO] [Item] Spawned: Health Potion
+[INFO] [Item] Spawned: Invisibility Potion
+[INFO] Level Generated 
+[INFO] [Player] Entered block 3
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+﻿[INFO] Maze generated, seed=22689
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Half Key 1
+[INFO] [Item] Spawned: Health Potion
+[INFO] [Item] Spawned: Invisibility Potion
+[INFO] Level Generated 
+[INFO] [Player] Entered block 3
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+﻿[INFO] Maze generated, seed=17822
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Half Key 1
+[INFO] [Item] Spawned: Health Potion
+[INFO] [Item] Spawned: Invisibility Potion
+[INFO] Level Generated 
+[INFO] [Player] Entered block 3
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=93 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=73 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=53 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=33 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=13 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Picked up: Sword
+[INFO] Inventory: +Sword
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=10 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=6 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=9 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=7 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=17 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=27 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=37 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=47 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=53 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=63 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=72 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=64 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=44 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=24 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=4 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=6 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 4
+[INFO] [Player] HP=100/100 ARM=30/30 STA=16 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=26 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=28 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=9 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=19 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=29 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=35 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=20 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=23 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=31 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=41 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=51 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=61 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 5
+[INFO] [Player] HP=100/100 ARM=30/30 STA=71 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=81 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 4
+[INFO] [Player] HP=100/100 ARM=30/30 STA=91 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 5
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=80 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=60 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=40 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=37 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=30 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=30 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=31 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=40 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=50 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=50 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=50 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=51 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=48 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=34 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=41 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=34 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=14 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Item] Sword USED!
+[INFO] [Item] Spawned: Purple Key
+[INFO] [Sword] Chaser dropped Purple Key!
+[INFO] [Sword] Chaser destroyed
+[INFO] [Player] Picked up: Purple Key
+[INFO] Inventory: +Purple Key
+[INFO] [Player] HP=100/100 ARM=10/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=3 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=13 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=23 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=33 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=43 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=28 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=8 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Chaser] Respawned!
+[INFO] [Player] HP=100/100 ARM=10/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=1 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=11 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=11 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=10 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=8 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 2
+[INFO] [Player] HP=100/100 ARM=10/30 STA=6 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=16 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=26 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=90/100 ARM=0/30 STA=9 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=90/100 ARM=0/30 STA=3 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=90/100 ARM=0/30 STA=13 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=90/100 ARM=0/30 STA=18 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=90/100 ARM=0/30 STA=21 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] [Exit] Locked. Need both halves of the key
+[INFO] [Player] HP=90/100 ARM=0/30 STA=20 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=90/100 ARM=0/30 STA=26 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=90/100 ARM=0/30 STA=6 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=90/100 ARM=0/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=90/100 ARM=0/30 STA=5 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=90/100 ARM=0/30 STA=5 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=90/100 ARM=0/30 STA=6 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=90/100 ARM=0/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] Entering BOSS ROOM
+[INFO] Portal saved at: (3296,330)
+[INFO] Maze preserved: 21 objects
+[INFO] BOSS: Phase 1  вЂ” survive 30 seconds!
+[ERROR] BOSS ROOM ENTERED. PREPARE TO DODGE
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=88 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=98 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS:hide in a corner!
+[INFO] [Player] HP=100/100 ARM=30/30 STA=95 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: dodge up/down
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS:dodge left/right
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS: SAFE STRIP  at y=401
+[INFO] [Player] HP=100/100 ARM=30/30 STA=98 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=92 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by laser Damage: 5
+[INFO] BOSS: stay in the middle strip
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by laser Damage: 30
+[INFO] [Player] HP=65/100 ARM=0/30 STA=89 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=95 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=96 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=90 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: stay in the middle strip
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=87 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=97 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS: SAFE STRIP  at x=661
+[INFO] [Player] HP=65/100 ARM=0/30 STA=90 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by laser Damage: 35
+[INFO] [Player] HP=30/100 ARM=0/30 STA=82 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: stay in the middle strip
+[INFO] [Player] HP=30/100 ARM=0/30 STA=90 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=30/100 ARM=0/30 STA=93 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS:dodge left/right
+[INFO] [Player] HP=30/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=30/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=30/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: dodge up/down
+[INFO] [Player] HP=30/100 ARM=0/30 STA=88 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Phase 2  вЂ” survive 30 seconds!
+[INFO] [Player] HP=30/100 ARM=0/30 STA=98 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(611,321) baseAngle=226deg
+[INFO] [Player] HP=30/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=30/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(603,343) baseAngle=77deg
+[INFO] [Player] HP=30/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=30/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(672,330) baseAngle=311deg
+[INFO] [Player] HP=30/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=30/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(653,437) baseAngle=268deg
+[INFO] [Player] HP=30/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(578,310) baseAngle=244deg
+[INFO] [Player] HP=30/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=30/100 ARM=0/30 STA=95 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(597,379) baseAngle=339deg
+[INFO] [Player] HP=30/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by bullet HP: 15
+[INFO] [Player] HP=15/100 ARM=0/30 STA=99 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(684,313) baseAngle=57deg
+[INFO] [Player] HP=15/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=15/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(665,404) baseAngle=112deg
+[INFO] [Player] HP=15/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=15/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(645,400) baseAngle=19deg
+[INFO] [Player] HP=15/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by bullet HP: 0
+[ERROR] GAME OVER
+[INFO]  RESTARTING LEVEL 
+[INFO] Maze generated, seed=14245
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Half Key 1
+[INFO] [Item] Spawned: Health Potion
+[INFO] [Item] Spawned: Invisibility Potion
+[INFO] Level Generated 
+[INFO] [Player] Entered block 3
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=92 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=82 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=62 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=42 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=22 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=2 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=2 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=7 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=3 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Picked up: Speed
+[INFO] Inventory: +Speed
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Picked up: Sword
+[INFO] Inventory: +Sword
+[INFO] [Player] HP=100/100 ARM=30/30 STA=7 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=2 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=12 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 4
+[INFO] [Player] HP=100/100 ARM=30/30 STA=22 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=24 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=23 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=33 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=43 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=53 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=63 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=73 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=63 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=43 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=37 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=25 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Item] Sword USED!
+[INFO] [Item] Spawned: Purple Key
+[INFO] [Sword] Chaser dropped Purple Key!
+[INFO] [Sword] Chaser destroyed
+[INFO] [Player] HP=100/100 ARM=30/30 STA=35 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Picked up: Purple Key
+[INFO] Inventory: +Purple Key
+[INFO] [Player] HP=100/100 ARM=30/30 STA=45 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=32 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=39 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 1
+[INFO] [Player] HP=100/100 ARM=30/30 STA=49 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=30 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=10 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Chaser] Respawned!
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=0 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=10 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=20 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=30 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 2
+[INFO] [Player] HP=100/100 ARM=30/30 STA=40 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=50 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=60 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=70 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=80 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Item] Speed boost ACTIVE for 6s
+[INFO] [Player] HP=100/100 ARM=30/30 STA=90 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=1 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=1 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=1 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=1 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=1 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=1 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=85 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=65 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=45 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] Entering BOSS ROOM
+[INFO] Portal saved at: (3552,90)
+[INFO] Maze preserved: 14 objects
+[INFO] BOSS: Phase 1  вЂ” survive 30 seconds!
+[ERROR] BOSS ROOM ENTERED. PREPARE TO DODGE
+[INFO] [Player] HP=100/100 ARM=30/30 STA=99 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=96 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS: SAFE STRIP  at x=634
+[INFO] [Player] HP=100/100 ARM=30/30 STA=78 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=80 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by laser Damage: 5
+[INFO] [Player] HP=95/100 ARM=0/30 STA=71 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: stay in the middle strip
+[INFO] [Player] HP=95/100 ARM=0/30 STA=81 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=91 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS:dodge left/right
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: dodge up/down
+[INFO] [Player] HP=95/100 ARM=0/30 STA=95 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS: SAFE STRIP  at y=422
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: stay in the middle strip
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=95 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS:dodge left/right
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS: SAFE STRIP  at x=652
+[INFO] [Player] HP=95/100 ARM=0/30 STA=93 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=94 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS:dodge left/right
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=91 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS:hide in a corner!
+[INFO] [Player] HP=95/100 ARM=0/30 STA=97 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by laser Damage: 30
+[INFO] BOSS: Phase 2  вЂ” survive 30 seconds!
+[INFO] [Player] HP=65/100 ARM=0/30 STA=91 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(643,409) baseAngle=13deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=82 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=77 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(650,413) baseAngle=24deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=85 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=95 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(643,316) baseAngle=50deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=98 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(640,289) baseAngle=287deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=98 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(592,332) baseAngle=57deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(597,416) baseAngle=166deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(635,399) baseAngle=334deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(688,327) baseAngle=241deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(597,296) baseAngle=206deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=93 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(580,336) baseAngle=323deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=90 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by bullet HP: 50
+[INFO] [Player] HP=50/100 ARM=0/30 STA=90 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(689,388) baseAngle=137deg
+[INFO] [Player] HP=50/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=50/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(646,439) baseAngle=135deg
+[INFO] [Player] HP=50/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=50/100 ARM=0/30 STA=99 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(675,288) baseAngle=296deg
+[INFO] [Player] HP=50/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=50/100 ARM=0/30 STA=98 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(606,320) baseAngle=76deg
+[INFO] [Player] HP=50/100 ARM=0/30 STA=98 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(620,425) baseAngle=245deg
+[INFO] [Player] HP=50/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=50/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(564,346) baseAngle=248deg
+[INFO] [Player] HP=50/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=50/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(683,328) baseAngle=10deg
+[INFO] BOSS DEFEATED Half Key 2 granted.
+[INFO] [Player] HP=50/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=50/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Boss] Leaving boss room...
+[INFO] [Boss] ExitBossRoom start
+[INFO] [Boss] Portal destroyed permanently
+[INFO] Player placed at portal position (3552,90)
+[INFO] Maze restored: 13 objects
+[INFO] [Player] HP=100/100 ARM=10/30 STA=34 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=44 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=54 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=49 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=90/100 ARM=0/30 STA=29 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=90/100 ARM=0/30 STA=20 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+﻿[INFO] Maze generated, seed=21016
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Half Key 1
+[INFO] [Item] Spawned: Health Potion
+[INFO] [Item] Spawned: Invisibility Potion
+[INFO] Level Generated 
+[INFO] [Player] Entered block 3
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=96 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=76 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Picked up: Speed
+[INFO] Inventory: +Speed
+[INFO] [Player] HP=100/100 ARM=30/30 STA=56 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=36 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=16 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=1 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=11 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=21 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=26 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=35 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=42 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=43 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=53 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=63 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=73 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=83 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=87 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=67 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=47 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=27 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=7 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=6 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=16 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=26 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=33 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=43 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=31 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=11 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=10 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=4 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=14 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=24 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=34 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=44 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 1
+[INFO] [Player] HP=100/100 ARM=30/30 STA=54 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=62 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=68 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=70 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=75 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=85 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=93 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=99 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=99 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=79 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Picked up: Sword
+[INFO] Inventory: +Sword
+[INFO] [Player] HP=100/100 ARM=30/30 STA=69 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=68 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=60 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=58 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=60 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=66 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=71 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=81 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=91 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=97 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=99 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 2
+[INFO] [Player] HP=100/100 ARM=30/30 STA=79 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=88 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=98 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=94 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=94 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=95 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 5
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 2
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=97 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=89 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[WARNING] [Exit] Locked. Need both halves of the key
+[INFO] [Player] HP=100/100 ARM=30/30 STA=69 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=49 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=34 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=25 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=32 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=35 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=34 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=34 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=32 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=40 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=50 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=60 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=70 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=80 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=90 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Item] Sword USED!
+[INFO] [Item] Spawned: Purple Key
+[INFO] [Sword] Chaser dropped Purple Key!
+[INFO] [Sword] Chaser destroyed
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Picked up: Purple Key
+[INFO] Inventory: +Purple Key
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] Entering BOSS ROOM
+[INFO] Portal saved at: (3552,90)
+[INFO] Maze preserved: 17 objects
+[INFO] BOSS: Phase 1  вЂ” survive 30 seconds!
+[ERROR] BOSS ROOM ENTERED. PREPARE TO DODGE
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS:dodge left/right
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=98 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: stay in the middle strip
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=83 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=64 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=74 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=64 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: dodge up/down
+[INFO] [Player] HP=100/100 ARM=30/30 STA=44 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=38 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS:hide in a corner!
+[INFO] [Player] HP=100/100 ARM=30/30 STA=34 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by laser Damage: 0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=20 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS: SAFE STRIP  at y=324
+[INFO] [Player] HP=100/100 ARM=0/30 STA=30 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=40 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=50 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: stay in the middle strip
+[INFO] [Player] HP=100/100 ARM=0/30 STA=60 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=70 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS:hide in a corner!
+[INFO] [Player] HP=100/100 ARM=0/30 STA=80 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=71 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=81 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=85 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=93 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: dodge up/down
+[INFO] [Player] HP=100/100 ARM=0/30 STA=96 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=97 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS:dodge left/right
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=98 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Phase 2  вЂ” survive 30 seconds!
+[INFO] [Player] HP=100/100 ARM=0/30 STA=99 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(673,318) baseAngle=335deg
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(573,362) baseAngle=179deg
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(584,325) baseAngle=174deg
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(641,293) baseAngle=35deg
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(633,438) baseAngle=39deg
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(682,394) baseAngle=70deg
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(597,333) baseAngle=114deg
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(645,311) baseAngle=269deg
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(681,416) baseAngle=147deg
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(670,388) baseAngle=250deg
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(629,436) baseAngle=105deg
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(662,318) baseAngle=108deg
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(691,357) baseAngle=108deg
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(651,317) baseAngle=307deg
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(574,330) baseAngle=147deg
+[INFO] [Player] HP=100/100 ARM=0/30 STA=99 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(686,347) baseAngle=28deg
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(669,413) baseAngle=219deg
+[INFO] BOSS DEFEATED Half Key 2 granted.
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=0/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Boss] Leaving boss room...
+[INFO] [Boss] ExitBossRoom start
+[INFO] [Boss] Portal destroyed permanently
+[INFO] Player placed at portal position (3552,90)
+[INFO] Maze restored: 16 objects
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=92 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=72 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=61 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Chaser] Respawned!
+[INFO] [Player] HP=100/100 ARM=30/30 STA=57 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=67 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=77 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=71 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=51 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=32 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+﻿[INFO] Maze generated, seed=21747
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Half Key 1
+[INFO] [Item] Spawned: Health Potion
+[INFO] [Item] Spawned: Invisibility Potion
+[INFO] Level Generated 
+[INFO] [Player] Entered block 3
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=95 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=75 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=55 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=35 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=15 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=2 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=12 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=22 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=25 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=34 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=23 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=31 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=41 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=50 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=30 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=10 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=4 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=14 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=24 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=34 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=43 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 4
+[INFO] [Player] Picked up: Sword
+[INFO] Inventory: +Sword
+[INFO] [Player] HP=100/100 ARM=30/30 STA=26 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=36 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=46 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 3
+[INFO] [Player] HP=100/100 ARM=30/30 STA=56 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=66 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=76 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=82 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=92 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=95 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Entered block 4
+[INFO] [Player] HP=100/100 ARM=30/30 STA=89 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=99 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=85 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=65 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=45 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=25 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=5 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=7 Items{C:0 S:1 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Item] Sword USED!
+[INFO] [Item] Spawned: Purple Key
+[INFO] [Sword] Chaser dropped Purple Key!
+[INFO] [Sword] Chaser destroyed
+[INFO] [Player] HP=100/100 ARM=30/30 STA=17 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Picked up: Purple Key
+[INFO] Inventory: +Purple Key
+[INFO] [Player] HP=100/100 ARM=30/30 STA=27 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=19 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=13 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=4 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=7 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=17 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=27 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Chaser] Respawned!
+[INFO] [Player] HP=100/100 ARM=30/30 STA=25 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] Entered block 5
+[INFO] [Player] HP=100/100 ARM=30/30 STA=30 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=40 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=50 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=60 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=70 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=74 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=84 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=89 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] Picked up: Speed
+[INFO] Inventory: +Speed
+[INFO] [Player] HP=100/100 ARM=30/30 STA=99 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=90 Items{C:0 S:0 U:1 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Item] Speed boost ACTIVE for 6s
+[INFO] [Player] HP=100/100 ARM=30/30 STA=98 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=1 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=1 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=1 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=1 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=1 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=1 Invis=0
+[INFO] [Player] Entered block 2
+[INFO] [Player] HP=100/100 ARM=10/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=96 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=76 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=56 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=36 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=16 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=14 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=24 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=34 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=16 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=6 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] Entering BOSS ROOM
+[INFO] Portal saved at: (3040,90)
+[INFO] Maze preserved: 17 objects
+[INFO] BOSS: Phase 1  вЂ” survive 30 seconds!
+[ERROR] BOSS ROOM ENTERED. PREPARE TO DODGE
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS:dodge left/right
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: stay in the middle strip
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS: SAFE STRIP  at x=672
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=82 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by laser Damage: 5
+[INFO] [Player] HP=95/100 ARM=0/30 STA=86 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS:dodge left/right
+[INFO] [Player] HP=95/100 ARM=0/30 STA=87 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=97 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS: SAFE STRIP  at y=295
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: stay in the middle strip
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: stay in the middle strip
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=95/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS:hide in a corner!
+[INFO] [Player] HP=95/100 ARM=0/30 STA=95 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by laser Damage: 30
+[INFO] [Player] HP=65/100 ARM=0/30 STA=94 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=99 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=85 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS: SAFE STRIP  at y=358
+[INFO] [Player] HP=65/100 ARM=0/30 STA=95 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] BOSS:hide in a corner!
+[INFO] [Player] HP=65/100 ARM=0/30 STA=96 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Phase 2  вЂ” survive 30 seconds!
+[INFO] [Player] HP=65/100 ARM=0/30 STA=97 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(627,401) baseAngle=254deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(681,327) baseAngle=275deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(599,300) baseAngle=104deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(604,402) baseAngle=261deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(676,313) baseAngle=20deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=98 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(608,300) baseAngle=299deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(683,367) baseAngle=122deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(641,417) baseAngle=244deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(618,399) baseAngle=93deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(657,398) baseAngle=6deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(574,369) baseAngle=91deg
+[INFO] [Player] HP=65/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by bullet HP: 50
+[INFO] [Player] HP=50/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(706,333) baseAngle=75deg
+[INFO] [Player] HP=50/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=50/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(681,332) baseAngle=21deg
+[INFO] [Player] HP=50/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=50/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(598,322) baseAngle=182deg
+[INFO] [Player] HP=50/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(587,389) baseAngle=86deg
+[INFO] [Player] HP=50/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=50/100 ARM=0/30 STA=96 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(699,376) baseAngle=193deg
+[INFO] [Player] HP=50/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[WARNING] Player hit by bullet HP: 35
+[INFO] [Player] HP=35/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:1} Boost=0 Invis=0
+[INFO] BOSS: Bullet wave вЂ” origin=(692,373) baseAngle=211deg
+[INFO] BOSS DEFEATED Half Key 2 granted.
+[INFO] [Player] HP=35/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=35/100 ARM=0/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Boss] Leaving boss room...
+[INFO] [Boss] ExitBossRoom start
+[INFO] [Boss] Portal destroyed permanently
+[INFO] Player placed at portal position (3040,90)
+[INFO] Maze restored: 16 objects
+[INFO] [Player] HP=100/100 ARM=10/30 STA=12 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=22 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=12 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=10/30 STA=3 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:1 PK:1} Boost=0 Invis=0

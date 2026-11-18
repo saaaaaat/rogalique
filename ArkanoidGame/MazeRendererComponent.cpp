@@ -13,11 +13,16 @@ namespace RogaliqueGame
         assert(maze != nullptr && "MazeRendererComponent: null maze");
 
         sf::Image img;
+
         img.create(RoguelikeMaze::GLOBAL_CELLS_X, RoguelikeMaze::GLOBAL_CELLS_Y, sf::Color(30, 30, 60));
+
         for (int x = 0; x < RoguelikeMaze::GLOBAL_CELLS_X; x++)
-            for (int y = 0; y < RoguelikeMaze::GLOBAL_CELLS_Y; y++)
-                if (!maze->IsWall(x, y))
+            for (int y = 0; y < RoguelikeMaze::GLOBAL_CELLS_Y; y++) {
+
+                if (!maze->IsWall(x, y)) {
                     img.setPixel(x, y, sf::Color(90, 90, 95));
+                }
+            }
 
         texture = new sf::Texture();
         texture->loadFromImage(img);

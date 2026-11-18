@@ -26,5 +26,6 @@ namespace RogaliqueGame
         float stamina = STAMINA_MAX;
         float logTimer = 0.f;
         int   lastBlock = 0;
+        bool isExhausted = false;
     };
 }

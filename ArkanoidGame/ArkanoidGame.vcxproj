@@ -160,18 +160,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BossComponent.cpp" />
     <ClCompile Include="ChaseAIComponent.cpp" />
     <ClCompile Include="ExitComponent.cpp" />
     <ClCompile Include="ExploderComponent.cpp" />
     <ClCompile Include="GameOrchestrator.cpp" />
+    <ClCompile Include="LaserComponent.cpp" />
     <ClCompile Include="MazeRendererComponent.cpp" />
     <ClCompile Include="PickupComponent.cpp" />
     <ClCompile Include="PlayerControllerComponent.cpp" />
+    <ClCompile Include="PortalComponent.cpp" />
+    <ClCompile Include="ProjectileComponent.cpp" />
     <ClCompile Include="RoguelikeMaze.cpp" />
     <ClCompile Include="GameMain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.h" />
+    <ClInclude Include="BossComponent.h" />
     <ClInclude Include="ChaseAIComponent.h" />
     <ClInclude Include="CircleRendererComponent.h" />
     <ClInclude Include="Collidable.h" />
@@ -182,9 +187,12 @@
     <ClInclude Include="GameStateData.h" />
     <ClInclude Include="IDelayedAction.h" />
     <ClInclude Include="IObserver.h" />
+    <ClInclude Include="LaserComponent.h" />
     <ClInclude Include="MazeRendererComponent.h" />
     <ClInclude Include="PickupComponent.h" />
     <ClInclude Include="PlayerControllerComponent.h" />
+    <ClInclude Include="PortalComponent.h" />
+    <ClInclude Include="ProjectileComponent.h" />
     <ClInclude Include="randomizer.h" />
     <ClInclude Include="RoguelikeMaze.h" />
     <ClInclude Include="Game.h" />

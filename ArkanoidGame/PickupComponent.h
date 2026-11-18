@@ -3,7 +3,7 @@
 
 namespace RogaliqueGame
 {
-    enum class ItemType { Clone, Sword, Speed, Key };
+    enum class ItemType { Clone, Sword, Speed, Key1, HealthPotion, InvisibilityPotion, PurpleKey, Key2 };
 
     const char* ItemTypeToString(ItemType t);
 
