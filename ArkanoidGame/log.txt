@@ -2034,3 +2034,115 @@
 [INFO] [Player] Entered block 3
 [INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
 [INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+﻿[INFO] Maze generated, seed=26110
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Half Key 1
+[INFO] [Item] Spawned: Health Potion
+[INFO] [Item] Spawned: Invisibility Potion
+[INFO] Level Generated 
+[INFO] [Player] Entered block 3
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] Picked up: Invisibility Potion
+[INFO] Inventory: +Invisibility Potion
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:1 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:1 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:1 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:1 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:1 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:1 K1:0 K2:0 PK:0} Boost=0 Invis=0
+﻿[INFO] Maze generated, seed=26179
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Half Key 1
+[INFO] [Item] Spawned: Health Potion
+[INFO] [Item] Spawned: Invisibility Potion
+[INFO] Level Generated 
+[INFO] [Player] Entered block 3
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+﻿[INFO] Maze generated, seed=26326
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Half Key 1
+[INFO] [Item] Spawned: Health Potion
+[INFO] [Item] Spawned: Invisibility Potion
+[INFO] Level Generated 
+[INFO] [Player] Entered block 3
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+﻿[INFO] Maze generated, seed=27204
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Half Key 1
+[INFO] [Item] Spawned: Health Potion
+[INFO] [Item] Spawned: Invisibility Potion
+[INFO] Level Generated 
+[INFO] [Player] Entered block 3
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=90 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=70 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=50 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=47 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=58 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=59 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=56 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=36 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=39 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=31 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=11 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=4 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=14 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=24 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+﻿[INFO] Maze generated, seed=28804
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Half Key 1
+[INFO] [Item] Spawned: Health Potion
+[INFO] [Item] Spawned: Invisibility Potion
+[INFO] Level Generated 
+[INFO] [Player] Entered block 3
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=88 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=68 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=58 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+﻿[INFO] Maze generated, seed=28863
+[INFO] [Item] Spawned: Clone
+[INFO] [Item] Spawned: Sword
+[INFO] [Item] Spawned: Speed
+[INFO] [Item] Spawned: Half Key 1
+[INFO] [Item] Spawned: Health Potion
+[INFO] [Item] Spawned: Invisibility Potion
+[INFO] Level Generated 
+[INFO] [Player] Entered block 3
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
+[INFO] [Player] HP=100/100 ARM=30/30 STA=100 Items{C:0 S:0 U:0 H:0 I:0 K1:0 K2:0 PK:0} Boost=0 Invis=0
